@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="TipperKit.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TipperKit"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid RequestedTheme="Dark" Background="#FF363636" RenderTransformOrigin="0.101,0.242">
+        <Grid Margin="11,72,10,0" Height="401" VerticalAlignment="Top">
+            <TextBlock x:Name="textBlock_Copy" Text="Tray Weight (Empty)" Margin="0,7,135,0" TextWrapping="Wrap" Height="27" UseLayoutRounding="True" LineHeight="36" FontSize="18" VerticalAlignment="Top"/>
+            <TextBlock x:Name="textBlock_Copy1" Margin="0,41,134,0" TextWrapping="Wrap" Height="27" UseLayoutRounding="True" LineHeight="36" Text="Gross Tray Weight (Loaded)" FontSize="18" VerticalAlignment="Top" RenderTransformOrigin="0.51,0.919" />
+            <TextBlock x:Name="textBlock_Copy3" Margin="0,70,134,0" TextWrapping="Wrap" Height="49" UseLayoutRounding="True" LineHeight="11" Text="Distance between Pivot Points" FontSize="18" VerticalAlignment="Top" />
+            <TextBlock x:Name="textBlock_Copy4" Margin="3,124,134,0" TextWrapping="NoWrap" Height="27" UseLayoutRounding="True" LineHeight="36" Text="Cylinder Stroke" FontSize="18" VerticalAlignment="Top"/>
+            <TextBlock x:Name="textBlock_Copy5" Margin="3,164,134,0" TextWrapping="Wrap" Text="Tray length" Height="27" UseLayoutRounding="True" LineHeight="36" FontSize="18" VerticalAlignment="Top"/>
+            <Button x:Name="btnCalcluate" Content="Calculate" HorizontalAlignment="Stretch" Margin="10,0" VerticalAlignment="Bottom" Click="Button_Click" Height="72"/>
+            <ComboBox x:Name="cmbCylinderStroke" HorizontalAlignment="Right" Margin="0,119,11,0" VerticalAlignment="Top" Width="120">
+                <ComboBoxItem Content="800" FontSize="18"/>
+                <ComboBoxItem Content="1000" FontSize="18"/>
+                <ComboBoxItem Content="1250" FontSize="18"/>
+                <ComboBoxItem Content="1500" FontSize="18"/>
+            </ComboBox>
+            <TextBox x:Name="txtTrayWeightEmpty" Margin="0,-2,11,0" TextWrapping="Wrap" Text="" Width="120" FontSize="18" AcceptsReturn="False" InputScope="Number" VerticalAlignment="Top" HorizontalAlignment="Right"/>
+            <TextBox x:Name="txtGrossTrayWeight" Margin="0,38,11,0" TextWrapping="Wrap" Text="" Width="120" FontSize="18" AcceptsReturn="False" InputScope="Number" VerticalAlignment="Top" HorizontalAlignment="Right"/>
+            <TextBox x:Name="txtDistanceBetweenPivotPoints" Margin="0,79,11,0" TextWrapping="Wrap" Text="" Width="120" FontSize="18" AcceptsReturn="False" InputScope="Number" VerticalAlignment="Top" HorizontalAlignment="Right"/>
+            <TextBox x:Name="txtTrayLength" Margin="0,156,11,0" TextWrapping="Wrap" Text="" FontSize="18" AcceptsReturn="False" InputScope="Number" VerticalAlignment="Top" HorizontalAlignment="Right" Width="120"/>
+        </Grid>
+        <TextBlock Margin="11,10,11,0" TextWrapping="Wrap" Text="Tipper Kit Calculator" VerticalAlignment="Top" Height="57" FontSize="36" FontFamily="Open Sans" TextAlignment="Center"/>
+    </Grid>
+</Page>
