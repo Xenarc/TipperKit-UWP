@@ -132,17 +132,21 @@ namespace TipperKit.TipperKit_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[4];
-            _typeNameTable[0] = "TipperKit.MainPage";
+            _typeNameTable = new string[6];
+            _typeNameTable[0] = "TipperKit.DatasheetsPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "TipperKit.OutputPage";
+            _typeNameTable[3] = "TipperKit.GenerateAndSendReportPage";
+            _typeNameTable[4] = "TipperKit.MainPage";
+            _typeNameTable[5] = "TipperKit.OutputPage";
 
-            _typeTable = new global::System.Type[4];
-            _typeTable[0] = typeof(global::TipperKit.MainPage);
+            _typeTable = new global::System.Type[6];
+            _typeTable[0] = typeof(global::TipperKit.DatasheetsPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::TipperKit.OutputPage);
+            _typeTable[3] = typeof(global::TipperKit.GenerateAndSendReportPage);
+            _typeTable[4] = typeof(global::TipperKit.MainPage);
+            _typeTable[5] = typeof(global::TipperKit.OutputPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -177,8 +181,10 @@ namespace TipperKit.TipperKit_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_MainPage() { return new global::TipperKit.MainPage(); }
-        private object Activate_3_OutputPage() { return new global::TipperKit.OutputPage(); }
+        private object Activate_0_DatasheetsPage() { return new global::TipperKit.DatasheetsPage(); }
+        private object Activate_3_GenerateAndSendReportPage() { return new global::TipperKit.GenerateAndSendReportPage(); }
+        private object Activate_4_MainPage() { return new global::TipperKit.MainPage(); }
+        private object Activate_5_OutputPage() { return new global::TipperKit.OutputPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -190,9 +196,9 @@ namespace TipperKit.TipperKit_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  TipperKit.MainPage
+            case 0:   //  TipperKit.DatasheetsPage
                 userType = new global::TipperKit.TipperKit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_MainPage;
+                userType.Activator = Activate_0_DatasheetsPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -205,9 +211,23 @@ namespace TipperKit.TipperKit_XamlTypeInfo
                 xamlType = new global::TipperKit.TipperKit_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  TipperKit.OutputPage
+            case 3:   //  TipperKit.GenerateAndSendReportPage
                 userType = new global::TipperKit.TipperKit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_3_OutputPage;
+                userType.Activator = Activate_3_GenerateAndSendReportPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 4:   //  TipperKit.MainPage
+                userType = new global::TipperKit.TipperKit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_4_MainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 5:   //  TipperKit.OutputPage
+                userType = new global::TipperKit.TipperKit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_5_OutputPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

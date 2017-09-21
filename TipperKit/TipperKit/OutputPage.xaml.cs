@@ -23,6 +23,19 @@ namespace TipperKit {
         public OutputPage() {
             this.InitializeComponent();
             //Texts
+            TOverallApplicationSetup.Text = Util.TipperCalculator.T68OverallApplicationSetup ? "Application Acceptable" : "Application Unacceptable";
+            if (Util.TipperCalculator.T68OverallApplicationSetup) {
+                TSentance.Text = Convert.ToString("Cylinder is able to produce a force of " + Math.Round(Util.TipperCalculator.E66ForceRequiredY2 / 1000 / 10, 1) + " Tonne at a pressure of " + Math.Round(Util.TipperCalculator.E75PressureRequiredTheoPB, 1) + " Bar. " + "Cylinder can produce a maximum force of " + Math.Round(Util.TipperCalculator.H83ForceProducedMFWUO20KN / 10, 1) + " Tonne, which includes an underload of 20% with a maximum working pressure of 160 Bar.");
+                TCylinderPartNumber.Text = Util.TipperCalculator.E30CylinderPartNumber;
+                TTipperKitPartNumber.Text = Util.TipperCalculator.P3TipperKitPartNumber;
+                TSentance.TextAlignment = TextAlignment.Left;
+            } else {
+                TSentance.Text = "Not Applicable";
+                TSentance.TextAlignment = TextAlignment.Center;
+                TCylinderPartNumber.Text = "-  ";
+                TTipperKitPartNumber.Text = "-  ";
+            }
+
             TFmaxGtY2.Text = Util.TipperCalculator.T37FmaxGtY2 ? "Acceptable" : "Unacceptable";
             TPLsPmax.Text = Util.TipperCalculator.T38PLsPmax ? "Acceptable" : "Unacceptable";
             TdGt39Lt58.Text = Util.TipperCalculator.T48dGt39Lt58 ? "Acceptable" : "Unacceptable";
@@ -32,6 +45,7 @@ namespace TipperKit {
             TSSH15l.Text = Util.TipperCalculator.T43SSH15l ? "Acceptable" : "Unacceptable";
 
             //Backgrounds
+            BGOverallApplicationSetup.Background = Util.TipperCalculator.T68OverallApplicationSetup ? new SolidColorBrush(Windows.UI.Color.FromArgb(255, 0, 255, 0)) : new SolidColorBrush(Windows.UI.Colors.Red);
             BGFmaxGtY2.Background = Util.TipperCalculator.T37FmaxGtY2 ? new SolidColorBrush(Windows.UI.Color.FromArgb(255, 0, 255, 0)) : new SolidColorBrush(Windows.UI.Colors.Red);
             BGPLsPmax.Background = Util.TipperCalculator.T38PLsPmax ? new SolidColorBrush(Windows.UI.Color.FromArgb(255, 0, 255, 0)) : new SolidColorBrush(Windows.UI.Colors.Red);
             BGdGt39Lt58.Background = Util.TipperCalculator.T48dGt39Lt58 ? new SolidColorBrush(Windows.UI.Color.FromArgb(255, 0, 255, 0)) : new SolidColorBrush(Windows.UI.Colors.Red);

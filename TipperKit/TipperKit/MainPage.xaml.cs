@@ -23,11 +23,30 @@ namespace TipperKit
     public class Util {
         public static Tipper TipperCalculator = new Tipper();
     }
-    public sealed partial class MainPage : Page
-    {
-        public MainPage()
-        {
+    public sealed partial class MainPage : Page{
+        public MainPage(){
             this.InitializeComponent();
+            txtTrayWeightEmpty.Text = Util.TipperCalculator.Q9TrayWeightEmpty != 0 ? Convert.ToString(Util.TipperCalculator.Q9TrayWeightEmpty) : "";
+            txtGrossTrayWeight.Text = Util.TipperCalculator.Q10GrossTrayWeightLoaded != 0 ? Convert.ToString(Util.TipperCalculator.Q10GrossTrayWeightLoaded) : "";
+            txtDistanceBetweenPivotPoints.Text = Util.TipperCalculator.Q12DistanceBetweenPivotPoints!= 0 ? Convert.ToString(Util.TipperCalculator.Q12DistanceBetweenPivotPoints) : "";
+            switch (Util.TipperCalculator.Q13CylinderStroke) {
+                case 0:
+                    cmbCylinderStroke.SelectedIndex = -1;
+                    break;
+                case 800:
+                    cmbCylinderStroke.SelectedIndex = 0;
+                    break;
+                case 1000:
+                    cmbCylinderStroke.SelectedIndex = 1;
+                    break;
+                case 1250:
+                    cmbCylinderStroke.SelectedIndex = 2;
+                    break;
+                case 1500:
+                    cmbCylinderStroke.SelectedIndex = 3;
+                    break;
+            }
+            txtTrayLength.Text = Util.TipperCalculator.Q14TrayLength != 0 ? Convert.ToString(Util.TipperCalculator.Q14TrayLength) : "";
         }
         
         private void Button_Click(object sender, RoutedEventArgs e) { // Calculate Button
@@ -48,6 +67,10 @@ namespace TipperKit
             if (Util.TipperCalculator.Calculate()) btnCalcluate.Background = new SolidColorBrush(Windows.UI.Color.FromArgb(50, 50, 255, 50));
             if (!Util.TipperCalculator.Calculate()) btnCalcluate.Background = new SolidColorBrush(Windows.UI.Color.FromArgb(50, 255, 50, 50));
             this.Frame.Navigate(typeof(OutputPage));
+        }
+
+        private void DatasheetsButton_Click(object sender, RoutedEventArgs e) {
+            this.Frame.Navigate(typeof(DatasheetsPage));
         }
     }
 }

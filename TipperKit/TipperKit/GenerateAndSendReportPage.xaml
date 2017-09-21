@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="TipperKit.GenerateAndSendReportPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TipperKit"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#FF131313">
+        <ScrollBar HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <ScrollViewer Margin="0,4,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Stretch"/>
+        <Image HorizontalAlignment="Left" VerticalAlignment="Top" Source="Assets/Cyl.png"/>
+        <Image Source="Assets/DataS1.png" Margin="1007,417,0,-5" HorizontalAlignment="Left" VerticalAlignment="Top" Height="668"/>
+        <Image HorizontalAlignment="Left" VerticalAlignment="Top" Source="Assets/Ram.png" Margin="1133,0,0,0"/>
+        <Image HorizontalAlignment="Left" VerticalAlignment="Top" Source="Assets/RodDiameter.png" Margin="1133,144,0,0"/>
+        <Image HorizontalAlignment="Left" VerticalAlignment="Top" Source="Assets/Tanks.png" Margin="1234,417,0,0" Height="495" Width="686"/>
+        <Image HorizontalAlignment="Left" VerticalAlignment="Top" Source="Assets/TipperDrawing.jpg" Margin="492,0,0,0" Width="636"/>
+        <Image HorizontalAlignment="Left" VerticalAlignment="Top" Source="Assets/TonForce.png" Margin="1360,912,0,0" Width="560"/>
+    </Grid>
+</Page>

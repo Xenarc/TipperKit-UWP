@@ -10,22 +10,22 @@
         <ScrollViewer HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Margin="0,0,0,38">
             <Grid VerticalAlignment="Top" Height="1395">
                 <Grid x:ConnectionId='3' x:Name="BGOverallApplicationSetup" Margin="0,66,0,0" Background="Red" VerticalAlignment="Top">
-                    <TextBlock x:ConnectionId='18' x:Name="TOverallApplicationSetup" TextWrapping="Wrap" Text="Application Unacceptable" Foreground="Black" RenderTransformOrigin="0.5,0.5" TextAlignment="Center" LineHeight="10" FontSize="24" Padding="0,10" Margin="55,15,0,0"/>
+                    <TextBlock x:ConnectionId='21' x:Name="TOverallApplicationSetup" TextWrapping="Wrap" Text="Application Unacceptable" Foreground="Black" RenderTransformOrigin="0.5,0.5" TextAlignment="Center" LineHeight="10" FontSize="24" Padding="0,10" Margin="55,15,0,0"/>
                 </Grid>
                 <Grid Margin="0,-1,0,551" Height="90" Grid.RowSpan="2" VerticalAlignment="Top">
                     <Grid Margin="0,42,0,6" Background="#FF0023FF" Height="42" VerticalAlignment="Top">
                         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Tipper Kit Part Number:" VerticalAlignment="Top" Foreground="White" Margin="10,8,0,0" FontSize="18"/>
-                        <TextBlock HorizontalAlignment="Right" Margin="0,8,10,0" TextWrapping="Wrap" Text="NULL" VerticalAlignment="Top" Foreground="White" Width="125" TextAlignment="Right" FontSize="18"/>
+                        <TextBlock x:ConnectionId='20' x:Name="TTipperKitPartNumber" Margin="0,8,10,0" TextWrapping="Wrap" Text="NULL" VerticalAlignment="Top" Foreground="White" TextAlignment="Right" FontSize="18" HorizontalAlignment="Right" Width="1000"/>
                     </Grid>
                     <Grid Margin="0,5,0,0" Background="#FF0023FF" VerticalAlignment="Top" Height="37">
                         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Cylinder Part Number:" VerticalAlignment="Top" Foreground="White" Margin="10,5,0,0" FontSize="18"/>
-                        <TextBlock HorizontalAlignment="Right" Margin="0,5,10,0" TextWrapping="Wrap" Text="NULL" VerticalAlignment="Top" Foreground="White" Width="125" TextAlignment="Right" FontSize="18"/>
+                        <TextBlock x:ConnectionId='19' x:Name="TCylinderPartNumber" Margin="0,5,10,8" TextWrapping="Wrap" Text="NULL" Foreground="White" TextAlignment="Right" FontSize="18" HorizontalAlignment="Right" Width="848"/>
 
                     </Grid>
 
                 </Grid>
                 <Grid Margin="0,130,0,0" Grid.Row="1" Background="#FF444444" VerticalAlignment="Top" Height="99">
-                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="NULL" VerticalAlignment="Top" Height="87" Width="340" Margin="10,10,0,0" Foreground="White"/>
+                    <TextBlock x:ConnectionId='18' x:Name="TSentance" TextWrapping="Wrap" Text="NULL" VerticalAlignment="Top" Height="87" Margin="10,10,10,0" Foreground="White"/>
 
                 </Grid>
                 <TextBlock HorizontalAlignment="Center" Margin="0,246,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Key" VerticalAlignment="Top" Width="360" Foreground="White" TextAlignment="Center"/>
@@ -227,13 +227,13 @@
                 <Grid Margin="10,978,10,2028" Grid.RowSpan="2" VerticalAlignment="Bottom"/>
             </Grid>
         </ScrollViewer>
-        <Grid Background="#00363636" VerticalAlignment="Bottom" Height="38" Margin="-3,0,3,0">
+        <Grid Background="#00363636" VerticalAlignment="Bottom" Height="38" Margin="-3,0,3,0" BorderBrush="#FF444444" BorderThickness="0,1,0,0">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
             <Button x:ConnectionId='1' x:Name="btnRealcluate" Content="Recalculate" Background="#FF494949" Foreground="White" VerticalAlignment="Center"                             FocusVisualPrimaryBrush="#FF747474" FocusVisualSecondaryBrush="#FF747474" RequestedTheme="Dark" Height="30" Margin="10,4,6,4" HorizontalAlignment="Stretch"/>
-            <Button x:ConnectionId='2' x:Name="btnRealcluate_Copy" Content="Gernerate and Send" Background="#FF494949" Foreground="White" VerticalAlignment="Center" FocusVisualPrimaryBrush="#FF747474" FocusVisualSecondaryBrush="#FF747474" RequestedTheme="Dark" Height="30" Margin="5,4,0,4" HorizontalAlignment="Stretch" Grid.Column="1"                                 />
+            <Button x:ConnectionId='2' x:Name="btnRealcluate_Copy" Content="Generate and Send" Background="#FF494949" Foreground="White" VerticalAlignment="Center" FocusVisualPrimaryBrush="#FF747474" FocusVisualSecondaryBrush="#FF747474" RequestedTheme="Dark" Height="30" Margin="5,4,0,4" HorizontalAlignment="Stretch" Grid.Column="1"                                 />
         </Grid>
     </Grid>
 </Page>

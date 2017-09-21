@@ -370,8 +370,35 @@
     <AppxPackagedFile Include="C:\Users\markb\.nuget\packages\System.Xml.XmlSerializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\Cyl.png">
+      <PackagePath>Assets\Cyl.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\DataS1.png">
+      <PackagePath>Assets\DataS1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\icon.png">
+      <PackagePath>Assets\icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\logo.png">
+      <PackagePath>Assets\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\Ram.png">
+      <PackagePath>Assets\Ram.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\RodDiameter.png">
+      <PackagePath>Assets\RodDiameter.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\splash.png">
+      <PackagePath>Assets\splash.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\Tanks.png">
+      <PackagePath>Assets\Tanks.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\TonForce.png">
+      <PackagePath>Assets\TonForce.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\WeightsMeasures.png">
+      <PackagePath>Assets\WeightsMeasures.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -399,6 +426,12 @@
     <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\TipperDrawing.jpg">
+      <PackagePath>Assets\TipperDrawing.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\bin\x86\Debug\TipperKit.xr.xml">
       <PackagePath>TipperKit.xr.xml</PackagePath>

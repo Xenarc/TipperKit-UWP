@@ -216,3 +216,13 @@ D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\obj\x86\Debug\OutputPage
 D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\obj\x86\Debug\OutputPage.xbf
 D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\bin\x86\Debug\OutputPage.xbf
 D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\obj\x86\Debug\TipperKit.csproj.CoreCompileInputs.cache
+D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\bin\x86\Debug\DatasheetsPage.xbf
+D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\bin\x86\Debug\GenerateAndSendReportPage.xbf
+D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\obj\x86\Debug\DatasheetsPage.g.i.cs
+D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\obj\x86\Debug\DatasheetsPage.g.cs
+D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\obj\x86\Debug\GenerateAndSendReportPage.g.i.cs
+D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\obj\x86\Debug\GenerateAndSendReportPage.g.cs
+D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\obj\x86\Debug\DatasheetsPage.xaml
+D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\obj\x86\Debug\GenerateAndSendReportPage.xaml
+D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\obj\x86\Debug\DatasheetsPage.xbf
+D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\obj\x86\Debug\GenerateAndSendReportPage.xbf

@@ -12,13 +12,13 @@ namespace TipperKit {
         public Datasheets.SSH[] SSH;
         public Datasheets.TipperKits[] TipperKits;
 
-        public float Q9TrayWeightEmpty;
-		public float Q10GrossTrayWeightLoaded;
-		public float Q11CenterOfGravity;
-		public float Q12DistanceBetweenPivotPoints;
-		public float Q13CylinderStroke;
-		public float Q14TrayLength;
-		public float Q15TippingAngle;
+        public float Q9TrayWeightEmpty = 0;
+		public float Q10GrossTrayWeightLoaded = 0;
+		public float Q11CenterOfGravity = 0;
+		public float Q12DistanceBetweenPivotPoints = 0;
+		public float Q13CylinderStroke = 0;
+		public float Q14TrayLength = 0;
+		public float Q15TippingAngle = 0;
 
 		public float Q17MaxWorkingPressureOfCylinder = 160.0f;
 		public float Q18FlowRateOfPowerPackRaise = 5.5f;
