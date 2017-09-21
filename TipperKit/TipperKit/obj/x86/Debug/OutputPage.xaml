@@ -6,15 +6,11 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-    <Grid Background="#FF131313">
-        <ScrollViewer HorizontalContentAlignment="Center">
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="7*"/>
-                    <RowDefinition Height="153*"/>
-                </Grid.RowDefinitions>
+    <Grid Background="#FF131313" HorizontalAlignment="Stretch">
+        <ScrollViewer HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Margin="0,-12,0,38">
+            <Grid VerticalAlignment="Top" Height="1395">
                 <Grid Margin="0,66,0,0" Grid.Row="1" Background="Red" VerticalAlignment="Top" HorizontalAlignment="Center">
-                    <TextBlock TextWrapping="Wrap" Text="Application Unacceptable" Width="1920" Foreground="Black" RenderTransformOrigin="0.5,0.5" TextAlignment="Center" LineHeight="10" FontSize="24" Padding="0,10" HorizontalAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="Application Unacceptable" Width="1920" Foreground="Black" RenderTransformOrigin="0.5,0.5" TextAlignment="Center" LineHeight="10" FontSize="24" Padding="0,10" HorizontalAlignment="Center" Margin="0,15,0,0"/>
                 </Grid>
                 <Grid Margin="0,-1,0,551" Height="90" Grid.RowSpan="2" VerticalAlignment="Top">
                     <Grid Margin="0,42,0,6" Background="#FF0023FF" Height="42" VerticalAlignment="Top">
@@ -41,115 +37,204 @@
                     <TextBlock TextWrapping="Wrap" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0" VerticalAlignment="Top"/>
 
                 </Grid>
-                <Grid Margin="0,310,0,262" Grid.Row="1" Background="#FF363636" VerticalAlignment="Top">
-                    <Grid Margin="260,0,0,0" Background="Lime" >
-                        <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0"/>
+                <Grid Margin="0,294,0,0" VerticalAlignment="Top">
+                    <Grid Background="#FF363636" VerticalAlignment="Top">
+                        <Grid Margin="260,0,0,0" Background="Lime" >
+                            <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0"/>
+
+                        </Grid>
+                        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Is Cylinder Force Acceptable For Application?" Foreground="White" Width="245" Margin="10,0,0,0" TextAlignment="Center"/>
 
                     </Grid>
-                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Is Cylinder Force Acceptable For Application?" Foreground="White" Width="245" Margin="10,0,0,0" TextAlignment="Center"/>
+                    <Grid Margin="0,45,0,0" Background="#FF363636" VerticalAlignment="Top">
+                        <Grid Margin="260,0,0,0" Background="Lime" >
+                            <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0"/>
 
+                        </Grid>
+                        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Is Cylinder Pressure Acceptable For Application?" VerticalAlignment="Top" Foreground="White" Width="245" Margin="10,0,0,0" TextAlignment="Center"/>
+                        <Grid Margin="260,0,0,0" Background="Lime" >
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="29*"/>
+                                <RowDefinition Height="11*"/>
+                            </Grid.RowDefinitions>
+                            <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10" Grid.RowSpan="2"/>
+
+                        </Grid>
+
+                    </Grid>
+                    <Grid Margin="0,90,0,0" Background="#FF363636" VerticalAlignment="Top">
+                        <Grid Margin="260,0,0,0" Background="Lime" >
+                            <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0"/>
+
+                        </Grid>
+                        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Is Tipping Angle Acceptable For Application?" VerticalAlignment="Top" Foreground="White" Width="245" Margin="10,0,0,0" TextAlignment="Center"/>
+                        <Grid Margin="260,0,0,0" Background="Lime" >
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="29*"/>
+                                <RowDefinition Height="11*"/>
+                            </Grid.RowDefinitions>
+                            <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10" Grid.RowSpan="2"/>
+
+                        </Grid>
+
+                    </Grid>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,180,0,0" TextWrapping="Wrap" Text="Power Pack Tank Acceptable for Application?" VerticalAlignment="Top" Width="340" Foreground="White" TextAlignment="Center"/>
+                    <Grid Margin="0,135,0,0" Background="#FF363636" VerticalAlignment="Top">
+                        <Grid Margin="260,0,0,0" Background="Lime" >
+                            <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0"/>
+
+                        </Grid>
+                        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Is Cylinder Location Acceptable For Application?" VerticalAlignment="Top" Foreground="White" Width="245" Margin="10,0,0,0" TextAlignment="Center"/>
+                        <Grid Margin="260,0,0,0" Background="Lime" VerticalAlignment="Top" >
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition Height="20"/>
+                            </Grid.RowDefinitions>
+                            <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10" Grid.RowSpan="2"/>
+
+                        </Grid>
+
+                    </Grid>
+                    <Grid Margin="0,205,0,0" Background="#FF363636" VerticalAlignment="Top" Height="87">
+                        <Grid Margin="260,0,0,0">
+                            <Grid Background="Lime" >
+                                <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0"/>
+
+                            </Grid>
+                        </Grid>
+                        <Grid HorizontalAlignment="Left" Width="260">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="153*"/>
+                                <ColumnDefinition Width="107*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock TextWrapping="Wrap" Text="6L SRH (Option)" Foreground="White" TextAlignment="Center" Margin="1,34,2.2,33" VerticalAlignment="Center" Height="20"/>
+                            <Grid Grid.Column="1" Margin="9.8,0,0,0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="44*"/>
+                                    <RowDefinition Height="43*"/>
+                                </Grid.RowDefinitions>
+                                <TextBlock TextWrapping="Wrap" Text="Tank Vol. (Usable) = " Foreground="White" TextAlignment="Center" VerticalAlignment="Top" Height="43"/>
+                                <TextBlock TextWrapping="Wrap" Text="5.2" Foreground="White" TextAlignment="Center" Margin="0,12,0,11.2" Grid.Row="1" VerticalAlignment="Center" Height="20"/>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                    <Grid Margin="0,297,0,0" Background="#FF363636" VerticalAlignment="Top" Height="87">
+                        <Grid Margin="260,0,0,0" Background="Lime" >
+                            <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0"/>
+
+                        </Grid>
+                        <Grid HorizontalAlignment="Left" Width="260">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="153*"/>
+                                <ColumnDefinition Width="107*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock TextWrapping="Wrap" Foreground="White" TextAlignment="Center" Margin="1,34,2.2,33" VerticalAlignment="Center" Height="20">
+                                <Run Text="10"/>
+                                <Run Text=" SS"/>
+                                <Run Text="H ("/>
+                                <Run Text="Standard"/>
+                                <Run Text=")"/>
+                            </TextBlock>
+                            <Grid Grid.Column="1" Margin="9.8,0,0,0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="44*"/>
+                                    <RowDefinition Height="43*"/>
+                                </Grid.RowDefinitions>
+                                <TextBlock TextWrapping="Wrap" Text="Tank Vol. (Usable) = " Foreground="White" TextAlignment="Center" VerticalAlignment="Top" Height="43"/>
+                                <TextBlock TextWrapping="Wrap" Text="8.5" Foreground="White" TextAlignment="Center" Margin="0,12,0,11.2" Grid.Row="1" VerticalAlignment="Center" Height="20"/>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                    <Grid Margin="0,389,0,0" Background="#FF363636" VerticalAlignment="Top" Height="87">
+                        <Grid Margin="260,0,0,0" Background="Lime" >
+                            <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0"/>
+
+                        </Grid>
+                        <Grid HorizontalAlignment="Left" Width="260">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="153*"/>
+                                <ColumnDefinition Width="107*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock TextWrapping="Wrap" Foreground="White" TextAlignment="Center" Margin="1,34,2.2,33" VerticalAlignment="Center" Height="20">
+                                <Run Text="15"/>
+                                <Run Text="L S"/>
+                                <Run Text="S"/>
+                                <Run Text="H (Option)"/>
+                            </TextBlock>
+                            <Grid Grid.Column="1" Margin="9.8,0,0,0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="44*"/>
+                                    <RowDefinition Height="43*"/>
+                                </Grid.RowDefinitions>
+                                <TextBlock TextWrapping="Wrap" Text="Tank Vol. (Usable) = " Foreground="White" TextAlignment="Center" VerticalAlignment="Top" Height="43"/>
+                                <TextBlock TextWrapping="Wrap" Text="13.5" Foreground="White" TextAlignment="Center" Margin="0,12,0,11.2" Grid.Row="1" VerticalAlignment="Center" Height="20"/>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                    <Grid Margin="0,389,0,0" Background="#FF363636" VerticalAlignment="Top" Height="87">
+                        <Grid Margin="260,0,0,0" Background="Lime" >
+                            <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0"/>
+
+                        </Grid>
+                        <Grid HorizontalAlignment="Left" Width="260">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="153*"/>
+                                <ColumnDefinition Width="107*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock TextWrapping="Wrap" Foreground="White" TextAlignment="Center" Margin="1,34,2.2,33" VerticalAlignment="Center" Height="20">
+                                <Run Text="15"/>
+                                <Run Text="L S"/>
+                                <Run Text="S"/>
+                                <Run Text="H (Option)"/>
+                            </TextBlock>
+                            <Grid Grid.Column="1" Margin="9.8,0,0,0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="44*"/>
+                                    <RowDefinition Height="43*"/>
+                                </Grid.RowDefinitions>
+                                <TextBlock TextWrapping="Wrap" Text="Tank Vol. (Usable) = " Foreground="White" TextAlignment="Center" VerticalAlignment="Top" Height="43"/>
+                                <TextBlock TextWrapping="Wrap" Text="13.5" Foreground="White" TextAlignment="Center" Margin="0,12,0,11.2" Grid.Row="1" VerticalAlignment="Center" Height="20"/>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                    <Grid Margin="0,389,0,0" Background="#FF363636" VerticalAlignment="Top" Height="87">
+                        <Grid Margin="260,0,0,0" Background="Lime" >
+                            <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0"/>
+
+                        </Grid>
+                        <Grid HorizontalAlignment="Left" Width="260">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="153*"/>
+                                <ColumnDefinition Width="107*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock TextWrapping="Wrap" Foreground="White" TextAlignment="Center" Margin="1,34,2.2,33" VerticalAlignment="Center" Height="20">
+                                <Run Text="15"/>
+                                <Run Text="L S"/>
+                                <Run Text="S"/>
+                                <Run Text="H (Option)"/>
+                            </TextBlock>
+                            <Grid Grid.Column="1" Margin="9.8,0,0,0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="44*"/>
+                                    <RowDefinition Height="43*"/>
+                                </Grid.RowDefinitions>
+                                <TextBlock TextWrapping="Wrap" Text="Tank Vol. (Usable) = " Foreground="White" TextAlignment="Center" VerticalAlignment="Top" Height="43"/>
+                                <TextBlock TextWrapping="Wrap" Text="13.5" Foreground="White" TextAlignment="Center" Margin="0,12,0,11.2" Grid.Row="1" VerticalAlignment="Center" Height="20"/>
+                            </Grid>
+                        </Grid>
+                    </Grid>
                 </Grid>
-                <Grid Margin="0,355,0,217" Grid.Row="1" Background="#FF363636" VerticalAlignment="Top">
-                    <Grid Margin="260,0,0,0" Background="Lime" >
-                        <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0"/>
-
-                    </Grid>
-                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Is Cylinder Pressure Acceptable For Application?" VerticalAlignment="Top" Foreground="White" Width="245" Margin="10,0,0,0" TextAlignment="Center"/>
-                    <Grid Margin="260,0,0,0" Background="Lime" >
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="29*"/>
-                            <RowDefinition Height="11*"/>
-                        </Grid.RowDefinitions>
-                        <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10" Grid.RowSpan="2"/>
-
-                    </Grid>
-
-                </Grid>
-                <Grid Margin="0,400,0,172" Grid.Row="1" Background="#FF363636" VerticalAlignment="Top">
-                    <Grid Margin="260,0,0,0" Background="Lime" >
-                        <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0"/>
-
-                    </Grid>
-                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Is Tipping Angle Acceptable For Application?" VerticalAlignment="Top" Foreground="White" Width="245" Margin="10,0,0,0" TextAlignment="Center"/>
-                    <Grid Margin="260,0,0,0" Background="Lime" >
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="29*"/>
-                            <RowDefinition Height="11*"/>
-                        </Grid.RowDefinitions>
-                        <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10" Grid.RowSpan="2"/>
-
-                    </Grid>
-
-                </Grid>
-                <TextBlock HorizontalAlignment="Left" Margin="10,490,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Power Pack Tank Acceptable for Application?" VerticalAlignment="Top" Width="340" Foreground="White" TextAlignment="Center"/>
-                <Grid Margin="0,445,0,127" Grid.Row="1" Background="#FF363636" VerticalAlignment="Top">
-                    <Grid Margin="260,0,0,0" Background="Lime" >
-                        <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0"/>
-
-                    </Grid>
-                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Is Cylinder Location Acceptable For Application?" VerticalAlignment="Top" Foreground="White" Width="245" Margin="10,0,0,0" TextAlignment="Center"/>
-                    <Grid Margin="260,0,0,0" Background="Lime" VerticalAlignment="Top" >
-                        <Grid.RowDefinitions>
-                            <RowDefinition/>
-                            <RowDefinition Height="20"/>
-                        </Grid.RowDefinitions>
-                        <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10" Grid.RowSpan="2"/>
-
-                    </Grid>
-
-                </Grid>
-                <Grid Margin="0,515,0,57" Grid.Row="1" Background="#FF363636" VerticalAlignment="Top">
-                    <Grid Margin="260,0,0,0" Background="Lime" >
-                        <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0"/>
-
-                    </Grid>
-                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Is Cylinder Location Acceptable For Application?" VerticalAlignment="Top" Foreground="White" Width="245" Margin="10,0,0,0" TextAlignment="Center"/>
-                    <Grid Margin="260,0,0,0" Background="Lime" >
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="29*"/>
-                            <RowDefinition Height="11*"/>
-                        </Grid.RowDefinitions>
-                        <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10" Grid.RowSpan="2"/>
-
-                    </Grid>
-                </Grid>
-                <Grid Margin="0,560,0,0" Grid.Row="1" Background="#FF363636" VerticalAlignment="Top">
-                    <Grid Margin="260,0,0,0" Background="Lime" >
-                        <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0"/>
-
-                    </Grid>
-                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Is Cylinder Location Acceptable For Application?" VerticalAlignment="Top" Foreground="White" Width="245" Margin="10,0,0,0" TextAlignment="Center"/>
-                    <Grid Margin="260,0,0,0" Background="Lime" >
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="29*"/>
-                            <RowDefinition Height="11*"/>
-                        </Grid.RowDefinitions>
-                        <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10" Grid.RowSpan="2"/>
-
-                    </Grid>
-                </Grid>
-                <Grid Margin="0,605,0,0" Grid.Row="1" Background="#FF363636" VerticalAlignment="Top">
-                    <Grid Margin="260,0,0,0" Background="Lime" >
-                        <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0"/>
-                    </Grid>
-                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Is Cylinder Location Acceptable For Application?" VerticalAlignment="Top" Foreground="White" Width="245" Margin="10,0,0,0" TextAlignment="Center"/>
-                    <Grid Margin="260,0,0,0" Background="Lime" >
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="29*"/>
-                            <RowDefinition Height="11*"/>
-                        </Grid.RowDefinitions>
-                        <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10" Grid.RowSpan="2"/>
-
-                    </Grid>
-                </Grid>
-                <Grid Margin="0,650,0,0" Grid.Row="1" Background="#FF363636" VerticalAlignment="Top" Height="42">
-                    <TextBlock TextWrapping="Wrap" Text="Is Cylinder Location Acceptable For Application?" Foreground="White" Margin="10" TextAlignment="Center"/>
-                </Grid>
-                <Grid Margin="10,697,0,0" Grid.Row="1" Background="#00363636" VerticalAlignment="Top" Height="34" HorizontalAlignment="Center">
-                    <Button x:ConnectionId='1' x:Name="btnRealcluate1" Content="Recalculate" Margin="913,1,902,1" Background="#FF494949" Foreground="Black" VerticalAlignment="Stretch" HorizontalAlignment="Center"/>
-                </Grid>
+                <Grid Margin="10,978,10,2028" Grid.RowSpan="2" VerticalAlignment="Bottom"/>
             </Grid>
         </ScrollViewer>
+        <Grid Background="#00363636" VerticalAlignment="Bottom" Height="38" Margin="-3,0,3,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button x:ConnectionId='1' x:Name="btnRealcluate" Content="Recalculate" Background="#FF494949" Foreground="White" VerticalAlignment="Center"                             FocusVisualPrimaryBrush="#FF747474" FocusVisualSecondaryBrush="#FF747474" RequestedTheme="Dark" Height="30" Margin="10,4,6,4" HorizontalAlignment="Stretch"/>
+            <Button x:ConnectionId='2' x:Name="btnRealcluate_Copy" Content="Gernerate and Send" Background="#FF494949" Foreground="White" VerticalAlignment="Center"                             FocusVisualPrimaryBrush="#FF747474" FocusVisualSecondaryBrush="#FF747474" RequestedTheme="Dark" Height="30" Margin="5,4,0,4" HorizontalAlignment="Stretch" Grid.Column="1"/>
+        </Grid>
     </Grid>
 </Page>
 

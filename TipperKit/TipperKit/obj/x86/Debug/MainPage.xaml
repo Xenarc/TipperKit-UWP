@@ -8,13 +8,13 @@
     mc:Ignorable="d">
 
     <Grid RequestedTheme="Dark" Background="#FF363636" RenderTransformOrigin="0.101,0.242">
-        <Grid Margin="11,72,10,0" Height="401" VerticalAlignment="Top">
+        <Grid Margin="11,72,10,0" Height="251" VerticalAlignment="Top">
             <TextBlock x:ConnectionId='1' x:Name="textBlock_Copy" Text="Tray Weight (Empty)" Margin="0,7,135,0" TextWrapping="Wrap" Height="27" UseLayoutRounding="True" LineHeight="36" FontSize="18" VerticalAlignment="Top"/>
-            <TextBlock x:ConnectionId='2' x:Name="textBlock_Copy1" Margin="0,41,134,0" TextWrapping="Wrap" Height="27" UseLayoutRounding="True" LineHeight="36" Text="Gross Tray Weight (Loaded)" FontSize="18" VerticalAlignment="Top" RenderTransformOrigin="0.51,0.919" />
-            <TextBlock x:ConnectionId='3' x:Name="textBlock_Copy3" Margin="0,70,134,0" TextWrapping="Wrap" Height="49" UseLayoutRounding="True" LineHeight="11" Text="Distance between Pivot Points" FontSize="18" VerticalAlignment="Top" />
-            <TextBlock x:ConnectionId='4' x:Name="textBlock_Copy4" Margin="3,124,134,0" TextWrapping="NoWrap" Height="27" UseLayoutRounding="True" LineHeight="36" Text="Cylinder Stroke" FontSize="18" VerticalAlignment="Top"/>
+            <TextBlock x:ConnectionId='2' x:Name="textBlock_Copy1" Margin="0,45,134,0" TextWrapping="Wrap" Height="27" UseLayoutRounding="True" LineHeight="36" Text="Gross Tray Weight (Loaded)" FontSize="18" VerticalAlignment="Top" RenderTransformOrigin="0.51,0.919" />
+            <TextBlock x:ConnectionId='3' x:Name="textBlock_Copy3" Margin="0,84,134,0" TextWrapping="Wrap" Height="25" UseLayoutRounding="True" LineHeight="11" Text="Distance between Pivot Points" FontSize="18" VerticalAlignment="Top" />
+            <TextBlock x:ConnectionId='4' x:Name="textBlock_Copy4" Margin="3,122,134,0" TextWrapping="NoWrap" Height="27" UseLayoutRounding="True" LineHeight="36" Text="Cylinder Stroke" FontSize="18" VerticalAlignment="Top"/>
             <TextBlock x:ConnectionId='5' x:Name="textBlock_Copy5" Margin="3,164,134,0" TextWrapping="Wrap" Text="Tray length" Height="27" UseLayoutRounding="True" LineHeight="36" FontSize="18" VerticalAlignment="Top"/>
-            <Button x:ConnectionId='6' x:Name="btnCalcluate" Content="Calculate" HorizontalAlignment="Stretch" Margin="10,0" VerticalAlignment="Bottom"                      Height="72"/>
+            <Button x:ConnectionId='6' x:Name="btnCalcluate" Content="Calculate" HorizontalAlignment="Stretch" Margin="10,0" VerticalAlignment="Bottom"                      Height="42"/>
             <ComboBox x:ConnectionId='7' x:Name="cmbCylinderStroke" HorizontalAlignment="Right" Margin="0,119,11,0" VerticalAlignment="Top" Width="120">
                 <ComboBoxItem Content="800" FontSize="18"/>
                 <ComboBoxItem Content="1000" FontSize="18"/>

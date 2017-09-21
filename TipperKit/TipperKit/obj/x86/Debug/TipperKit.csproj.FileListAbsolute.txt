@@ -215,3 +215,4 @@ D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\obj\x86\Debug\OutputPage
 D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\obj\x86\Debug\OutputPage.xaml
 D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\obj\x86\Debug\OutputPage.xbf
 D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\bin\x86\Debug\OutputPage.xbf
+D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\obj\x86\Debug\TipperKit.csproj.CoreCompileInputs.cache
