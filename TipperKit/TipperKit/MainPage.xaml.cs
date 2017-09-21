@@ -20,30 +20,33 @@ namespace TipperKit
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
+    public class Util {
+        public static Tipper TipperCalculator = new Tipper();
+    }
     public sealed partial class MainPage : Page
     {
         public MainPage()
         {
             this.InitializeComponent();
         }
-
+        
         private void Button_Click(object sender, RoutedEventArgs e) { // Calculate Button
-            Tipper TipperCalculator = new Tipper();
+            
             if (txtTrayWeightEmpty.Text == "" || txtDistanceBetweenPivotPoints.Text == "" || txtGrossTrayWeight.Text == "" || txtTrayLength.Text == "" || cmbCylinderStroke.SelectedIndex == -1) {
                 return;
             }
-            TipperCalculator.Q12DistanceBetweenPivotPoints = (float)Convert.ToDecimal(txtDistanceBetweenPivotPoints.Text);
-            TipperCalculator.Q10GrossTrayWeightLoaded = (float)Convert.ToDecimal(txtGrossTrayWeight.Text);
-            TipperCalculator.Q14TrayLength = (float)Convert.ToDecimal(txtTrayLength.Text);
-            TipperCalculator.Q9TrayWeightEmpty = (float)Convert.ToDecimal(txtTrayWeightEmpty.Text);
-            TipperCalculator.Q13CylinderStroke = (float)Convert.ToDecimal((cmbCylinderStroke.SelectedItem as ComboBoxItem).Content);
+            Util.TipperCalculator.Q12DistanceBetweenPivotPoints = (float)Convert.ToDecimal(txtDistanceBetweenPivotPoints.Text);
+            Util.TipperCalculator.Q10GrossTrayWeightLoaded = (float)Convert.ToDecimal(txtGrossTrayWeight.Text);
+            Util.TipperCalculator.Q14TrayLength = (float)Convert.ToDecimal(txtTrayLength.Text);
+            Util.TipperCalculator.Q9TrayWeightEmpty = (float)Convert.ToDecimal(txtTrayWeightEmpty.Text);
+            Util.TipperCalculator.Q13CylinderStroke = (float)Convert.ToDecimal((cmbCylinderStroke.SelectedItem as ComboBoxItem).Content);
 
             for (int i = 0; i < 10; i++) {
-                TipperCalculator.Calculate();
+                Util.TipperCalculator.Calculate();
             }
 
-            if (TipperCalculator.Calculate()) btnCalcluate.Background = new SolidColorBrush(Windows.UI.Color.FromArgb(50, 50, 255, 50));
-            if (!TipperCalculator.Calculate()) btnCalcluate.Background = new SolidColorBrush(Windows.UI.Color.FromArgb(50, 255, 50, 50));
+            if (Util.TipperCalculator.Calculate()) btnCalcluate.Background = new SolidColorBrush(Windows.UI.Color.FromArgb(50, 50, 255, 50));
+            if (!Util.TipperCalculator.Calculate()) btnCalcluate.Background = new SolidColorBrush(Windows.UI.Color.FromArgb(50, 255, 50, 50));
             this.Frame.Navigate(typeof(OutputPage));
         }
     }

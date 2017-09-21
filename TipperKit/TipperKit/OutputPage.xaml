@@ -7,10 +7,10 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
     <Grid Background="#FF131313" HorizontalAlignment="Stretch">
-        <ScrollViewer HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Margin="0,-12,0,38">
+        <ScrollViewer HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Margin="0,0,0,38">
             <Grid VerticalAlignment="Top" Height="1395">
-                <Grid Margin="0,66,0,0" Grid.Row="1" Background="Red" VerticalAlignment="Top" HorizontalAlignment="Center">
-                    <TextBlock TextWrapping="Wrap" Text="Application Unacceptable" Width="1920" Foreground="Black" RenderTransformOrigin="0.5,0.5" TextAlignment="Center" LineHeight="10" FontSize="24" Padding="0,10" HorizontalAlignment="Center" Margin="0,15,0,0"/>
+                <Grid x:Name="BGOverallApplicationSetup" Margin="0,66,0,0" Background="Red" VerticalAlignment="Top">
+                    <TextBlock x:Name="TOverallApplicationSetup" TextWrapping="Wrap" Text="Application Unacceptable" Foreground="Black" RenderTransformOrigin="0.5,0.5" TextAlignment="Center" LineHeight="10" FontSize="24" Padding="0,10" Margin="55,15,0,0"/>
                 </Grid>
                 <Grid Margin="0,-1,0,551" Height="90" Grid.RowSpan="2" VerticalAlignment="Top">
                     <Grid Margin="0,42,0,6" Background="#FF0023FF" Height="42" VerticalAlignment="Top">
@@ -39,8 +39,8 @@
                 </Grid>
                 <Grid Margin="0,294,0,0" VerticalAlignment="Top">
                     <Grid Background="#FF363636" VerticalAlignment="Top">
-                        <Grid Margin="260,0,0,0" Background="Lime" >
-                            <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0"/>
+                        <Grid x:Name="BGFmaxGtY2" Margin="260,0,0,0" Background="Lime" >
+                            <TextBlock x:Name="TFmaxGtY2" TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0"/>
 
                         </Grid>
                         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Is Cylinder Force Acceptable For Application?" Foreground="White" Width="245" Margin="10,0,0,0" TextAlignment="Center"/>
@@ -52,12 +52,12 @@
 
                         </Grid>
                         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Is Cylinder Pressure Acceptable For Application?" VerticalAlignment="Top" Foreground="White" Width="245" Margin="10,0,0,0" TextAlignment="Center"/>
-                        <Grid Margin="260,0,0,0" Background="Lime" >
+                        <Grid x:Name="BGPLsPmax" Margin="260,0,0,0" Background="Lime" >
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="29*"/>
                                 <RowDefinition Height="11*"/>
                             </Grid.RowDefinitions>
-                            <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10" Grid.RowSpan="2"/>
+                            <TextBlock x:Name="TPLsPmax" TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10" Grid.RowSpan="2"/>
 
                         </Grid>
 
@@ -68,37 +68,37 @@
 
                         </Grid>
                         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Is Tipping Angle Acceptable For Application?" VerticalAlignment="Top" Foreground="White" Width="245" Margin="10,0,0,0" TextAlignment="Center"/>
-                        <Grid Margin="260,0,0,0" Background="Lime" >
+                        <Grid x:Name="BGdGt39Lt58" Margin="260,0,0,0" Background="Lime" >
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="29*"/>
                                 <RowDefinition Height="11*"/>
                             </Grid.RowDefinitions>
-                            <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10" Grid.RowSpan="2"/>
+                            <TextBlock x:Name="TdGt39Lt58" TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10" Grid.RowSpan="2"/>
 
                         </Grid>
 
                     </Grid>
-                    <TextBlock HorizontalAlignment="Left" Margin="10,180,0,0" TextWrapping="Wrap" Text="Power Pack Tank Acceptable for Application?" VerticalAlignment="Top" Width="340" Foreground="White" TextAlignment="Center"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,180,0,0" TextWrapping="Wrap" Text="Power Pack Tank Acceptable for Application?" VerticalAlignment="Top" Width="340" Foreground="White"/>
                     <Grid Margin="0,135,0,0" Background="#FF363636" VerticalAlignment="Top">
                         <Grid Margin="260,0,0,0" Background="Lime" >
                             <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0"/>
 
                         </Grid>
                         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Is Cylinder Location Acceptable For Application?" VerticalAlignment="Top" Foreground="White" Width="245" Margin="10,0,0,0" TextAlignment="Center"/>
-                        <Grid Margin="260,0,0,0" Background="Lime" VerticalAlignment="Top" >
+                        <Grid x:Name="BGTactLtTmax" Margin="260,0,0,0" Background="Lime" VerticalAlignment="Top" >
                             <Grid.RowDefinitions>
                                 <RowDefinition/>
                                 <RowDefinition Height="20"/>
                             </Grid.RowDefinitions>
-                            <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10" Grid.RowSpan="2"/>
+                            <TextBlock x:Name="TTactLtTmax" TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10" Grid.RowSpan="2"/>
 
                         </Grid>
 
                     </Grid>
                     <Grid Margin="0,205,0,0" Background="#FF363636" VerticalAlignment="Top" Height="87">
                         <Grid Margin="260,0,0,0">
-                            <Grid Background="Lime" >
-                                <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0"/>
+                            <Grid x:Name="BGSrh6L" Background="Lime" >
+                                <TextBlock x:Name="TSrh6L" TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0"/>
 
                             </Grid>
                         </Grid>
@@ -119,8 +119,8 @@
                         </Grid>
                     </Grid>
                     <Grid Margin="0,297,0,0" Background="#FF363636" VerticalAlignment="Top" Height="87">
-                        <Grid Margin="260,0,0,0" Background="Lime" >
-                            <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0"/>
+                        <Grid x:Name="BGSSH10" Margin="260,0,0,0" Background="Lime" >
+                            <TextBlock x:Name="TSSH10" TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0"/>
 
                         </Grid>
                         <Grid HorizontalAlignment="Left" Width="260">
@@ -198,8 +198,8 @@
                         </Grid>
                     </Grid>
                     <Grid Margin="0,389,0,0" Background="#FF363636" VerticalAlignment="Top" Height="87">
-                        <Grid Margin="260,0,0,0" Background="Lime" >
-                            <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0"/>
+                        <Grid x:Name="BGSSH15l" Margin="260,0,0,0" Background="Lime" >
+                            <TextBlock x:Name="TSSH15l" TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0"/>
 
                         </Grid>
                         <Grid HorizontalAlignment="Left" Width="260">
