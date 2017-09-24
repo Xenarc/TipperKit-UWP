@@ -6,16 +6,48 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-
-    <Grid Background="#FF131313">
-        <ScrollBar HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <ScrollViewer Margin="0,4,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Stretch"/>
-        <Image HorizontalAlignment="Left" VerticalAlignment="Top" Source="Assets/Cyl.png"/>
-        <Image Source="Assets/DataS1.png" Margin="1007,417,0,-5" HorizontalAlignment="Left" VerticalAlignment="Top" Height="668"/>
-        <Image HorizontalAlignment="Left" VerticalAlignment="Top" Source="Assets/Ram.png" Margin="1133,0,0,0"/>
-        <Image HorizontalAlignment="Left" VerticalAlignment="Top" Source="Assets/RodDiameter.png" Margin="1133,144,0,0"/>
-        <Image HorizontalAlignment="Left" VerticalAlignment="Top" Source="Assets/Tanks.png" Margin="1234,417,0,0" Height="495" Width="686"/>
-        <Image HorizontalAlignment="Left" VerticalAlignment="Top" Source="Assets/TipperDrawing.jpg" Margin="492,0,0,0" Width="636"/>
-        <Image HorizontalAlignment="Left" VerticalAlignment="Top" Source="Assets/TonForce.png" Margin="1360,912,0,0" Width="560"/>
+    <Grid Background="#FF131313" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid VerticalAlignment="Top" Height="50" BorderBrush="#FF444444" BorderThickness="0,0,0,1" Grid.ColumnSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2.25*"/>
+                <ColumnDefinition Width="8*"/>
+                <ColumnDefinition Width="4.5*"/>
+                <ColumnDefinition Width="8*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Margin="10,15" TextWrapping="Wrap" Text="To: " FocusVisualPrimaryBrush="White" Foreground="White" VerticalAlignment="Center" TextAlignment="Right"/>
+            <TextBox x:Name="TToEmail" Grid.Column="1" Margin="10,10,10,0" Text="" VerticalAlignment="Top" RequestedTheme="Dark"/>
+            <TextBlock x:Name="TBSubject" Margin="10,18,10,12" TextWrapping="Wrap" Text="Subject: " FocusVisualPrimaryBrush="White" Foreground="White" VerticalAlignment="Center" TextAlignment="Right" Grid.Column="2"/>
+            <TextBox x:Name="TSubject" Grid.Column="3" Margin="0,10,21,0" Text="Tipper Kit Calculation Results" VerticalAlignment="Top" RequestedTheme="Dark"/>
+        </Grid>
+        <Grid Height="Auto" Width="Auto">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="4*"/>
+            </Grid.RowDefinitions>
+            <RichEditBox Width="Auto" Grid.Row="0" Margin="0,50,0,0" RequestedTheme="Dark"/>
+            <ScrollViewer HorizontalAlignment="Stretch" Grid.Row="1" Width="Auto" Margin="0,0,0,50" VerticalContentAlignment="Top" HorizontalContentAlignment="Center" MaxZoomFactor="25" Background="#FF444444">
+                <WebView x:Name="Webview1" Width="Auto" Height="Auto"/>
+            </ScrollViewer>
+        </Grid>
+        <Grid VerticalAlignment="Bottom" Height="50" BorderBrush="#FF444444" BorderThickness="0,1,0,0" Grid.ColumnSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Margin="10,4,10,2" Grid.Column="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <RadioButton x:Name="Send" Content="Send" HorizontalAlignment="Stretch" Margin="5,8" VerticalAlignment="Stretch" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Foreground="White" RequestedTheme="Dark" Checked="Send_Checked"/>
+                <RadioButton x:Name="Export" Content="Export" HorizontalAlignment="Stretch" Margin="5,8" VerticalAlignment="Stretch" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Foreground="White" Grid.Column="1" RequestedTheme="Dark" Checked="RadioButton_Checked"/>
+            </Grid>
+            <Button x:Name="SendButton" Content="Send" Grid.Column="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" RequestedTheme="Dark" Margin="0,1,0,0"/>
+            <Button x:Name="backb" Content="Back" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" RequestedTheme="Dark" Margin="0,1,0,0" Click="backb_Click"/>
+        </Grid>
     </Grid>
 </Page>

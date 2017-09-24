@@ -60,7 +60,7 @@ namespace TipperKit {
         }
 
         private void btnRealcluate_Copy_Click(object sender, RoutedEventArgs e) {
-            //this.Frame.Navigate(typeof(GenerateReportPage));
+            this.Frame.Navigate(typeof(GenerateAndSendReportPage));
         }
     }
 }

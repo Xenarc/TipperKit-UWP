@@ -227,13 +227,13 @@
                 <Grid Margin="10,978,10,2028" Grid.RowSpan="2" VerticalAlignment="Bottom"/>
             </Grid>
         </ScrollViewer>
-        <Grid Background="#00363636" VerticalAlignment="Bottom" Height="38" Margin="-3,0,3,0" BorderBrush="#FF444444" BorderThickness="0,1,0,0">
+        <Grid Background="#00363636" VerticalAlignment="Bottom" Height="38" Margin="-3,0,0,0" BorderBrush="#FF444444" BorderThickness="0,1,0,0">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Button x:ConnectionId='1' x:Name="btnRealcluate" Content="Recalculate" Background="#FF494949" Foreground="White" VerticalAlignment="Center"                             FocusVisualPrimaryBrush="#FF747474" FocusVisualSecondaryBrush="#FF747474" RequestedTheme="Dark" Height="30" Margin="10,4,6,4" HorizontalAlignment="Stretch"/>
-            <Button x:ConnectionId='2' x:Name="btnRealcluate_Copy" Content="Generate and Send" Background="#FF494949" Foreground="White" VerticalAlignment="Center" FocusVisualPrimaryBrush="#FF747474" FocusVisualSecondaryBrush="#FF747474" RequestedTheme="Dark" Height="30" Margin="5,4,0,4" HorizontalAlignment="Stretch" Grid.Column="1"                                 />
+            <Button x:ConnectionId='1' x:Name="btnRealcluate" Content="Recalculate" Background="#FF494949" Foreground="White" VerticalAlignment="Stretch"                             FocusVisualPrimaryBrush="#FF747474" FocusVisualSecondaryBrush="#FF747474" RequestedTheme="Dark" Margin="0,1,5,0" HorizontalAlignment="Stretch"/>
+            <Button x:ConnectionId='2' x:Name="btnRealcluate_Copy" Content="Generate and Send" Background="#FF494949" Foreground="White" VerticalAlignment="Stretch" FocusVisualPrimaryBrush="#FF747474" FocusVisualSecondaryBrush="#FF747474" RequestedTheme="Dark" Margin="5,1,0,0" HorizontalAlignment="Stretch" Grid.Column="1"                                 />
         </Grid>
     </Grid>
 </Page>
