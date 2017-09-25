@@ -27,9 +27,9 @@
                 <RowDefinition/>
                 <RowDefinition Height="4*"/>
             </Grid.RowDefinitions>
-            <RichEditBox Width="Auto" Grid.Row="0" Margin="0,50,0,0" RequestedTheme="Dark"/>
-            <ScrollViewer HorizontalAlignment="Stretch" Grid.Row="1" Width="Auto" Margin="0,0,0,50" VerticalContentAlignment="Top" HorizontalContentAlignment="Center" MaxZoomFactor="25" Background="#FF444444">
-                <WebView x:Name="Webview1" Width="Auto" Height="Auto"/>
+            <RichEditBox x:Name="TTextBody" Width="Auto" Grid.Row="0" Margin="0,50,0,0" RequestedTheme="Dark"/>
+            <ScrollViewer HorizontalAlignment="Stretch" Grid.Row="1" Margin="0,0,0,50" Width="Auto" VerticalContentAlignment="Top" HorizontalContentAlignment="Center" MaxZoomFactor="25" Background="#FF444444">
+                <WebView x:Name="Webview1" DefaultBackgroundColor="#FF131313"/>
             </ScrollViewer>
         </Grid>
         <Grid VerticalAlignment="Bottom" Height="50" BorderBrush="#FF444444" BorderThickness="0,1,0,0" Grid.ColumnSpan="3">

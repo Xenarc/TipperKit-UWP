@@ -31,13 +31,13 @@
     <AppXManifest Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-24T04:00:19.181</Modified>
+      <Modified>2017-09-25T01:22:26.892</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\bin\x86\Debug\TipperKit.exe">
       <PackagePath>entrypoint\TipperKit.exe</PackagePath>
-      <Modified>2017-09-24T04:00:18.843</Modified>
+      <Modified>2017-09-25T01:22:25.814</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\markb\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -579,7 +579,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\bin\x86\Debug\TipperKit.xr.xml">
       <PackagePath>TipperKit.xr.xml</PackagePath>
-      <Modified>2017-09-24T03:59:03.063</Modified>
+      <Modified>2017-09-24T04:22:30.367</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -588,11 +588,11 @@
     <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-24T03:59:03.839</Modified>
+      <Modified>2017-09-25T01:22:26.578</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\bin\x86\Debug\Core\TipperKit.exe">
       <PackagePath>TipperKit.exe</PackagePath>
-      <Modified>2017-09-24T04:00:19.177</Modified>
+      <Modified>2017-09-25T01:22:26.877</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
