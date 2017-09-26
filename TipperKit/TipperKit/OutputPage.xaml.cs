@@ -28,10 +28,8 @@ namespace TipperKit {
                 TSentance.Text = Convert.ToString("Cylinder is able to produce a force of " + Math.Round(Util.TipperCalculator.E66ForceRequiredY2 / 1000 / 10, 1) + " Tonne at a pressure of " + Math.Round(Util.TipperCalculator.E75PressureRequiredTheoPB, 1) + " Bar. " + "Cylinder can produce a maximum force of " + Math.Round(Util.TipperCalculator.H83ForceProducedMFWUO20KN / 10, 1) + " Tonne, which includes an underload of 20% with a maximum working pressure of 160 Bar.");
                 TCylinderPartNumber.Text = Util.TipperCalculator.E30CylinderPartNumber;
                 TTipperKitPartNumber.Text = Util.TipperCalculator.P3TipperKitPartNumber;
-                TSentance.TextAlignment = TextAlignment.Left;
             } else {
-                TSentance.Text = "Not Applicable";
-                TSentance.TextAlignment = TextAlignment.Center;
+                TSentance.Text = "-";
                 TCylinderPartNumber.Text = "-  ";
                 TTipperKitPartNumber.Text = "-  ";
             }

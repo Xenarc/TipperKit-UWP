@@ -5,4 +5,12 @@
     <UseEmulator>false</UseEmulator>
     <UseSimulator>false</UseSimulator>
   </PropertyGroup>
+  <PropertyGroup>
+    <SplashScreenSource>D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\Full Logo.png</SplashScreenSource>
+    <SmallTileSource>D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\icon.png</SmallTileSource>
+    <MediumTileSource>D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\icon.png</MediumTileSource>
+    <WideTileSource>D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\SplashScreen.scale-400.png</WideTileSource>
+    <LargeTileSource>D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\SplashScreen.scale-400.png</LargeTileSource>
+    <AppIconSource>D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\icon.png</AppIconSource>
+  </PropertyGroup>
 </Project>

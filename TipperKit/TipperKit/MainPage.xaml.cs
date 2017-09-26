@@ -63,13 +63,20 @@ namespace TipperKit
             for (int i = 0; i < 10; i++) {
                 Util.TipperCalculator.Calculate();
             }
-
-            if (Util.TipperCalculator.Calculate()) btnCalcluate.Background = new SolidColorBrush(Windows.UI.Color.FromArgb(50, 50, 255, 50));
-            if (!Util.TipperCalculator.Calculate()) btnCalcluate.Background = new SolidColorBrush(Windows.UI.Color.FromArgb(50, 255, 50, 50));
             this.Frame.Navigate(typeof(OutputPage));
         }
 
         private void DatasheetsButton_Click(object sender, RoutedEventArgs e) {
+            try{
+                Util.TipperCalculator.Q12DistanceBetweenPivotPoints = (float)Convert.ToDecimal(txtDistanceBetweenPivotPoints.Text);
+                Util.TipperCalculator.Q10GrossTrayWeightLoaded = (float)Convert.ToDecimal(txtGrossTrayWeight.Text);
+                Util.TipperCalculator.Q14TrayLength = (float)Convert.ToDecimal(txtTrayLength.Text);
+                Util.TipperCalculator.Q9TrayWeightEmpty = (float)Convert.ToDecimal(txtTrayWeightEmpty.Text);
+                Util.TipperCalculator.Q13CylinderStroke = (float)Convert.ToDecimal((cmbCylinderStroke.SelectedItem as ComboBoxItem).Content);
+            }
+            catch (Exception){
+                
+            }
             this.Frame.Navigate(typeof(DatasheetsPage));
         }
     }
