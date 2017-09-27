@@ -6,11 +6,13 @@
     <UseSimulator>false</UseSimulator>
   </PropertyGroup>
   <PropertyGroup>
-    <SplashScreenSource>D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\Full Logo.png</SplashScreenSource>
-    <SmallTileSource>D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\icon.png</SmallTileSource>
-    <MediumTileSource>D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\icon.png</MediumTileSource>
-    <WideTileSource>D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\SplashScreen.scale-400.png</WideTileSource>
-    <LargeTileSource>D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\SplashScreen.scale-400.png</LargeTileSource>
-    <AppIconSource>D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\icon.png</AppIconSource>
+    <SplashScreenSource>D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\VH Flying V Logo Lge Transparent.png</SplashScreenSource>
+    <SmallTileSource>D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\Oval Symbol Lge Transparent.png</SmallTileSource>
+    <MediumTileSource>D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\Oval Symbol Lge Transparent.png</MediumTileSource>
+    <WideTileSource>D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\VH Flying V Logo Lge Transparent.png</WideTileSource>
+    <LargeTileSource>D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\VH Oval Logo Lge Transparent.png</LargeTileSource>
+    <AppIconSource>D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\Oval Symbol Lge Transparent.png</AppIconSource>
+    <BadgeLogoSource>D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\Oval Symbol Lge Transparent.png</BadgeLogoSource>
+    <PackageLogoSource>D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\Oval Symbol Lge Transparent.png</PackageLogoSource>
   </PropertyGroup>
 </Project>

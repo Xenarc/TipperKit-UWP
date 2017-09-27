@@ -376,14 +376,31 @@
     <AppxPackagedFile Include="C:\Users\markb\.nuget\packages\System.Xml.XmlSerializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\BadgeLogo.scale-100.png">
+      <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\BadgeLogo.scale-125.png">
+      <PackagePath>Assets\BadgeLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\BadgeLogo.scale-150.png">
+      <PackagePath>Assets\BadgeLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\BadgeLogo.scale-200.png">
+      <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\BadgeLogo.scale-400.png">
+      <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\Cyl.png">
       <PackagePath>Assets\Cyl.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\DataS1.png">
       <PackagePath>Assets\DataS1.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\icon.png">
-      <PackagePath>Assets\icon.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -404,9 +421,6 @@
     <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\logo.png">
-      <PackagePath>Assets\logo.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\Ram.png">
       <PackagePath>Assets\Ram.png</PackagePath>
@@ -433,9 +447,6 @@
     <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\splash.png">
-      <PackagePath>Assets\splash.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
@@ -519,6 +530,26 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\Tanks.png">

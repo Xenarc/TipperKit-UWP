@@ -22,7 +22,8 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="TipperKit.exe" EntryPoint="TipperKit.App">
-      <uap:VisualElements DisplayName="Trailer Tippers - Hydraulic Calculation Tool" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="Victorian Hydraulics' Electro-Hydraulic Tipper Calculation Tool" BackgroundColor="transparent">
+      <uap:VisualElements DisplayName="Trailer Tippers - Hydraulic Calculation Tool" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="Tipper Tool - Determine the correct Victorian Hydraulics Tipper Kit to suit your new tipping trailer.e program allows for a number of options from tray lengths of 2.4m (8’) up to 4.2m (14’) and loads up to 4.5 ton and with a 20% safety factor. This is the ideal tool for any tipper trailer manufacturer using the Victorian Hydraulics Tipper Kits" BackgroundColor="#FFFFFF">
+        <uap:LockScreen Notification="badge" BadgeLogo="Assets\BadgeLogo.png" />
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square71x71Logo="Assets\SmallTile.png" Square310x310Logo="Assets\LargeTile.png"></uap:DefaultTile>
         <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#FFFFFF" />
         <uap:InitialRotationPreference>

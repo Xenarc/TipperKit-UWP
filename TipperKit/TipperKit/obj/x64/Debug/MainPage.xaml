@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid RequestedTheme="Dark" Background="#FF363636" RenderTransformOrigin="0.101,0.242">
+    <Grid RequestedTheme="Dark" Background="#FF222222" RenderTransformOrigin="0.101,0.242">
         <Grid Margin="11,72,10,0" Height="251" VerticalAlignment="Top">
             <TextBlock x:ConnectionId='1' x:Name="textBlock_Copy" Text="Tray Weight (Empty)" Margin="0,7,135,0" TextWrapping="Wrap" Height="27" UseLayoutRounding="True" LineHeight="36" FontSize="18" VerticalAlignment="Top"/>
             <TextBlock x:ConnectionId='2' x:Name="textBlock_Copy1" Margin="0,45,134,0" TextWrapping="Wrap" Height="27" UseLayoutRounding="True" LineHeight="36" Text="Gross Tray Weight (Loaded)" FontSize="18" VerticalAlignment="Top" RenderTransformOrigin="0.51,0.919" />
@@ -36,7 +36,7 @@
         <TextBlock Margin="11,10,11,0" TextWrapping="Wrap" Text="Tipper Kit Calculator" VerticalAlignment="Top" Height="57" FontSize="36" FontFamily="Open Sans" TextAlignment="Center"/>
 
         <Grid Height="Auto" Margin="0,328,0,0">
-            <Image Source="Assets/TipperDrawing.jpg" Width="Auto" MaxWidth="940" Margin="0" VerticalAlignment="Top" HorizontalAlignment="Stretch"/>
+            <Image Source="Assets/TipperDrawing.jpg" Width="Auto" MaxWidth="940" Margin="0" VerticalAlignment="Center" HorizontalAlignment="Stretch"/>
         </Grid>
     </Grid>
 </Page>

@@ -51,6 +51,22 @@ namespace TipperKit {
             BGSrh6L.Background = Util.TipperCalculator.T41Srh6L ? new SolidColorBrush(Windows.UI.Color.FromArgb(255, 0, 255, 0)) : new SolidColorBrush(Windows.UI.Colors.Red);
             BGSSH10.Background = Util.TipperCalculator.T42SSH10L ? new SolidColorBrush(Windows.UI.Color.FromArgb(255, 0, 255, 0)) : new SolidColorBrush(Windows.UI.Colors.Red);
             BGSSH15l.Background = Util.TipperCalculator.T43SSH15l ? new SolidColorBrush(Windows.UI.Color.FromArgb(255, 0, 255, 0)) : new SolidColorBrush(Windows.UI.Colors.Red);
+
+            VALUE12.Text = Convert.ToString(Util.TipperCalculator.Q9TrayWeightEmpty);
+            VALUE13.Text = Convert.ToString(Util.TipperCalculator.Q10GrossTrayWeightLoaded);
+            VALUE14.Text = Convert.ToString(Util.TipperCalculator.Q12DistanceBetweenPivotPoints);
+            VALUE15.Text = Convert.ToString(Util.TipperCalculator.Q11CenterOfGravity);
+            VALUE16.Text = Convert.ToString(Util.TipperCalculator.Q13CylinderStroke);
+            VALUE17.Text = Convert.ToString(Util.TipperCalculator.Q14TrayLength);
+            VALUE18.Text = Convert.ToString(Math.Round(Util.TipperCalculator.Q15TippingAngle, 2));
+            VALUE19.Text = Convert.ToString(Util.TipperCalculator.Q17MaxWorkingPressureOfCylinder);
+            VALUE20.Text = Convert.ToString(Util.TipperCalculator.Q18FlowRateOfPowerPackRaise);
+            VALUE21.Text = Convert.ToString(Util.TipperCalculator.Q19FlowRateOfPowerPackLower);
+            VALUE22.Text = Convert.ToString(Util.TipperCalculator.Q23StrokeVolumeOfCylinder);
+            VALUE23.Text = Convert.ToString(Util.TipperCalculator.Q24OverallCylinderDiameter);
+            VALUE24.Text = Convert.ToString(Util.TipperCalculator.Q25SmallestRodDiameter);
+            VALUE25.Text = Convert.ToString(Math.Round(Util.TipperCalculator.Q83PowerPackRaiseLowerTimeR, 2));
+            VALUE26.Text = Convert.ToString(Math.Round(Util.TipperCalculator.Q84PowerPackRaiseLowerTimeL, 2));
         }
 
         private void btnRealcluate_Click(object sender, RoutedEventArgs e) {
@@ -62,3 +78,24 @@ namespace TipperKit {
         }
     }
 }
+/// <summary>
+/// Tipper Tool - Determine the correct Victorian Hydraulics Tipper Kit to suit your new tipping trailer
+/// program allows for a number of options from tray lengths of 2.4m (8’) up to 4.2m (14’) and loads up 
+/// to 4.5 ton and with a 20% safety factor. This is the ideal tool for any tipper trailer manufacturer 
+/// using the Victorian Hydraulics Tipper Kits
+/// 
+/// o Only 5 inputs required:
+///     o Tray Weight
+///     o   Load
+///     o   Tray Length
+///     o Distance between pivot points
+///     o   Cylinder stroke
+/// o The tool will display both the Tipper Kit Part and Cylinder Part numbers Number and  whether the 
+///   Overall Application Setup is either Acceptable or Not Acceptable.The results will confirm that:
+///     o Cylinder stroke is applicable
+///     o Hydraulic pressure is adequate
+///     o Cylinder Location is correct
+///     o Power Pack oil tank is suitable
+///     o Tipping angle is within the manufacturer’s parameters
+/// 
+/// </summary>

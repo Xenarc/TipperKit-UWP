@@ -8,7 +8,7 @@
     mc:Ignorable="d">
     <Grid Height="Auto" VerticalAlignment="Stretch" Width="Auto" Background="#FF131313" HorizontalAlignment="Stretch" >
         <ScrollViewer Height="Auto" VerticalAlignment="Stretch" Width="Auto" Background="#FF131313" HorizontalAlignment="Stretch" >
-            <Grid Background="#FF131313" HorizontalAlignment="Stretch" Width="Auto" >
+            <Grid Background="#FF222222" HorizontalAlignment="Stretch" Width="Auto" >
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="1*"/>
                     <ColumnDefinition Width="10*"/>

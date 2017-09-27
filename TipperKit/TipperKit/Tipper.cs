@@ -193,8 +193,8 @@ namespace TipperKit {
 			H78ForceProducedPA = Q17MaxWorkingPressureOfCylinder;
 			E73PressureRequiredCD = ((Q25SmallestRodDiameter + Q24OverallCylinderDiameter) / 2);
 
-            P78PowerPackRaiseLowerTimeRaiseF = Q23StrokeVolumeOfCylinder;
-            P77PowerPackRaiseLowerTimeRaiseSV = Q18FlowRateOfPowerPackRaise;
+            P78PowerPackRaiseLowerTimeRaiseF = Q18FlowRateOfPowerPackRaise;
+            P77PowerPackRaiseLowerTimeRaiseSV = Q23StrokeVolumeOfCylinder;
             P81PowerPackRaiseLowerTimeLowerF = Q19FlowRateOfPowerPackLower;
             Q83PowerPackRaiseLowerTimeR = P77PowerPackRaiseLowerTimeRaiseSV/P78PowerPackRaiseLowerTimeRaiseF*MinSec;
             Q84PowerPackRaiseLowerTimeL = P77PowerPackRaiseLowerTimeRaiseSV/P81PowerPackRaiseLowerTimeLowerF*MinSec;
