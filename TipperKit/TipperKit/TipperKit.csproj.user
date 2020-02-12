@@ -14,5 +14,17 @@
     <AppIconSource>D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\Oval Symbol Lge Transparent.png</AppIconSource>
     <BadgeLogoSource>D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\Oval Symbol Lge Transparent.png</BadgeLogoSource>
     <PackageLogoSource>D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\Assets\Oval Symbol Lge Transparent.png</PackageLogoSource>
+    <AppxPackageIsForStore>False</AppxPackageIsForStore>
+    <AppxShowAllApps>False</AppxShowAllApps>
+    <AppxBuildConfigurationSelection>x86|x64|arm</AppxBuildConfigurationSelection>
+    <PackageOptionalProjectsInIdeBuilds>False</PackageOptionalProjectsInIdeBuilds>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DeviceId>30F105C9-681E-420b-A277-7C086EAD8A4E</DeviceId>
+    <UseEmulator>false</UseEmulator>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DeviceId>30F105C9-681E-420b-A277-7C086EAD8A4E</DeviceId>
+    <UseEmulator>true</UseEmulator>
   </PropertyGroup>
 </Project>

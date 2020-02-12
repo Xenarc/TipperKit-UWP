@@ -17,19 +17,17 @@
                 <ColumnDefinition Width="4.5*"/>
                 <ColumnDefinition Width="8*"/>
             </Grid.ColumnDefinitions>
-            <TextBlock Margin="10,15" TextWrapping="Wrap" Text="To: " FocusVisualPrimaryBrush="White" Foreground="White" VerticalAlignment="Center" TextAlignment="Right"/>
-            <TextBox x:ConnectionId='7' x:Name="TToEmail" Grid.Column="1" Margin="10,10,10,0" Text="" VerticalAlignment="Top" RequestedTheme="Dark"/>
-            <TextBlock x:ConnectionId='8' x:Name="TBSubject" Margin="10,18,10,12" TextWrapping="Wrap" Text="Subject: " FocusVisualPrimaryBrush="White" Foreground="White" VerticalAlignment="Center" TextAlignment="Right" Grid.Column="2"/>
-            <TextBox x:ConnectionId='9' x:Name="TSubject" Grid.Column="3" Margin="0,10,21,0" Text="Tipper Kit Calculation Results" VerticalAlignment="Top" RequestedTheme="Dark"/>
+            <TextBlock Margin="5" TextWrapping="Wrap" Text="To: " FocusVisualPrimaryBrush="White" Foreground="White" VerticalAlignment="Center" TextAlignment="Right"/>
+            <TextBox x:ConnectionId='14' x:Name="TToEmail" Grid.Column="1" Margin="10,10,10,0" Text="" VerticalAlignment="Top" RequestedTheme="Dark"/>
+            <TextBlock x:ConnectionId='15' x:Name="TBSubject" Margin="5,18,5,12" TextWrapping="Wrap" Text="Subject: " FocusVisualPrimaryBrush="White" Foreground="White" VerticalAlignment="Center" TextAlignment="Right" Grid.Column="2"/>
+            <TextBox x:ConnectionId='16' x:Name="TSubject" Grid.Column="3" Margin="10,10,10,0" Text="Tipper Kit Calculation Results" VerticalAlignment="Top" RequestedTheme="Dark"/>
         </Grid>
-        <Grid Height="Auto" Width="Auto">
+        <Grid Height="Auto" Width="Auto" Margin="0,55,0,0">
             <Grid.RowDefinitions>
                 <RowDefinition/>
-                <RowDefinition Height="4*"/>
             </Grid.RowDefinitions>
-            <RichEditBox x:ConnectionId='5' x:Name="TTextBody" Width="Auto" Grid.Row="0" Margin="0,50,0,0" RequestedTheme="Dark"/>
-            <ScrollViewer HorizontalAlignment="Stretch" Grid.Row="1" Margin="0,0,0,50" Width="Auto" VerticalContentAlignment="Top" HorizontalContentAlignment="Center" MaxZoomFactor="25" Background="#FF444444">
-                <WebView x:ConnectionId='6' x:Name="Webview1" DefaultBackgroundColor="#FF131313"/>
+            <ScrollViewer HorizontalAlignment="Stretch" Margin="0,0,0,50" Width="Auto" VerticalContentAlignment="Top" HorizontalContentAlignment="Center" MaxZoomFactor="25" Background="#FF444444">
+                <WebView x:ConnectionId='13' x:Name="Webview1" DefaultBackgroundColor="#FF131313"/>
             </ScrollViewer>
         </Grid>
         <Grid VerticalAlignment="Bottom" Height="50" BorderBrush="#FF444444" BorderThickness="0,1,0,0" Grid.ColumnSpan="3">
@@ -43,11 +41,11 @@
                     <ColumnDefinition/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
-                <RadioButton x:ConnectionId='3' x:Name="Send" Content="Send" HorizontalAlignment="Stretch" Margin="5,8" VerticalAlignment="Stretch" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Foreground="White" RequestedTheme="Dark"                       />
-                <RadioButton x:ConnectionId='4' x:Name="Export" Content="Export" HorizontalAlignment="Stretch" Margin="5,8" VerticalAlignment="Stretch" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Foreground="White" Grid.Column="1" RequestedTheme="Dark"                              />
+                <RadioButton x:ConnectionId='11' x:Name="Send" Content="Send" HorizontalAlignment="Stretch" Margin="5,8" VerticalAlignment="Stretch" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Foreground="White" RequestedTheme="Dark"                       />
+                <RadioButton x:ConnectionId='12' x:Name="Export" Content="Export" HorizontalAlignment="Stretch" Margin="5,8" VerticalAlignment="Stretch" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Foreground="White" Grid.Column="1" RequestedTheme="Dark"                              />
             </Grid>
-            <Button x:ConnectionId='1' x:Name="SendButton" Content="Send" Grid.Column="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" RequestedTheme="Dark" Margin="0,1,0,0"/>
-            <Button x:ConnectionId='2' x:Name="backb" Content="Back" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" RequestedTheme="Dark" Margin="0,1,0,0"                    />
+            <Button x:ConnectionId='9' x:Name="SendButton" Content="Send" Grid.Column="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" RequestedTheme="Dark" Margin="0,1,0,0"                              />
+            <Button x:ConnectionId='10' x:Name="backb" Content="Back" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" RequestedTheme="Dark" Margin="0,1,0,0"                    />
         </Grid>
     </Grid>
 </Page>

@@ -21,6 +21,7 @@
       <RootProperty Name="RowDefinitions" />
       <RootProperty Name="RequestedTheme" />
       <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="Padding" />
       <RootProperty Name="UseLayoutRounding" />
       <RootProperty Name="RenderTransform" />
       <RootMethod Name="GetColumn" />
@@ -43,6 +44,7 @@
       <RootProperty Name="VerticalContentAlignment" />
       <RootProperty Name="HorizontalContentAlignment" />
       <RootProperty Name="MaxZoomFactor" />
+      <RootProperty Name="FontSize" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Content" />
@@ -55,6 +57,7 @@
       <RootProperty Name="BorderThickness" />
       <RootProperty Name="RequestedTheme" />
       <RootProperty Name="TabIndex" />
+      <RootProperty Name="FontSize" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="FocusVisualPrimaryBrush" />
       <RootProperty Name="FocusVisualSecondaryBrush" />
@@ -91,6 +94,7 @@
       <RootProperty Name="HorizontalContentAlignment" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="RequestedTheme" />
+      <RootProperty Name="FontSize" />
       <RootEvent Name="Checked" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
@@ -107,8 +111,8 @@
       <RootProperty Name="Foreground" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="TextAlignment" />
-      <RootProperty Name="Height" />
       <RootProperty Name="FontSize" />
+      <RootProperty Name="Height" />
       <RootProperty Name="FontFamily" />
       <RootProperty Name="UseLayoutRounding" />
       <RootProperty Name="LineHeight" />
@@ -123,9 +127,9 @@
       <RootProperty Name="Text" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="RequestedTheme" />
+      <RootProperty Name="FontSize" />
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="Width" />
-      <RootProperty Name="FontSize" />
       <RootProperty Name="AcceptsReturn" />
       <RootProperty Name="InputScope" />
       <RootProperty Name="HorizontalAlignment" />
@@ -138,6 +142,7 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="TabIndex" />
+      <RootProperty Name="FontSize" />
       <RootProperty Name="Items" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBoxItem">

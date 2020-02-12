@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="8b633d62-0520-4b2f-b17e-94cb30ea9a11" Publisher="CN=Mark" Version="1.0.0.0" ProcessorArchitecture="x64" />
+  <Identity Name="8b633d62-0520-4b2f-b17e-94cb30ea9a11" Publisher="CN=Mark" Version="1.0.4.0" ProcessorArchitecture="x64" />
   <mp:PhoneIdentity PhoneProductId="8b633d62-0520-4b2f-b17e-94cb30ea9a11" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>TipperKit</DisplayName>
@@ -42,12 +42,12 @@
     <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />
     <build:Item Name="VisualStudio" Version="15.0" />
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2017" />
-    <build:Item Name="OperatingSystem" Version="10.0.15063.0 (WinBuild.160101.0800)" />
-    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="15.0.26720.2" />
+    <build:Item Name="OperatingSystem" Version="10.0.16299.15 (WinBuild.160101.0800)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="15.0.27128.1" />
     <build:Item Name="ProjectGUID" Value="{8F0A3E1A-40AC-45EC-BA02-817C40357175}" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />
-    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="15.0.26720.2" />
-    <build:Item Name="MakePri.exe" Version="10.0.15063.468 (WinBuild.160101.0800)" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="15.0.27128.1" />
+    <build:Item Name="MakePri.exe" Version="10.0.15063.674 (WinBuild.160101.0800)" />
   </build:Metadata>
 </Package>

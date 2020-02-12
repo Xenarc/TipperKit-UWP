@@ -1,5 +1,9 @@
 App.xbf
 DatasheetsPage.xbf
+DeviceFamily-Mobile\DatasheetsPage.xbf
+DeviceFamily-Mobile\GenerateAndSendReportPage.xbf
+DeviceFamily-Mobile\MainPage.xbf
+DeviceFamily-Mobile\OutputPage.xbf
 GenerateAndSendReportPage.xbf
 MainPage.xbf
 OutputPage.xbf

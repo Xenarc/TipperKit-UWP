@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="TipperKit.DatasheetsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TipperKit"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Grid Height="Auto" VerticalAlignment="Stretch" Width="Auto" Background="#FF131313" HorizontalAlignment="Stretch" >
+        <ScrollViewer Height="Auto" VerticalAlignment="Stretch" Width="Auto" Background="#FF131313" HorizontalAlignment="Stretch" >
+            <Grid Background="#FF222222" HorizontalAlignment="Stretch" Width="Auto" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="10*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="1" Width="Auto" HorizontalAlignment="Stretch" Padding="0,10" VerticalAlignment="Stretch" MaxWidth="600" Margin="10,0,0,30">
+                    <Image Source="Assets/TipperDrawing.jpg" Stretch="Fill" Margin="0,0,0,2"/>
+                    <Image Source="Assets/Cyl.png" Stretch="Fill"/>
+                    <Image Source="Assets/Ram.png" Stretch="Fill"/>
+                    <Image Source="Assets/Tanks.png" Stretch="Fill"/>
+                    <Image Source="Assets/RodDiameter.png" Stretch="Fill"/>
+                    <Image Source="Assets/TonForce.png" Stretch="Fill"/>
+                    <Image Source="Assets/WeightsMeasures.png" Stretch="Fill"/>
+                    <Image Source="Assets/DataS1.png" Stretch="Fill"/>
+                </StackPanel>
+            </Grid>
+        </ScrollViewer>
+        <Grid Background="#FF131313" Height="Auto" VerticalAlignment="Bottom" BorderBrush="#FF444444" BorderThickness="0,1,0,0">
+            <Button x:ConnectionId='2' x:Name="Back" Content="Back" Background="#FF535353" Margin="0,5" VerticalAlignment="Center" HorizontalAlignment="Center" Width="200" BorderBrush="White" BorderThickness="0" RequestedTheme="Dark"                   />
+        </Grid>
+    </Grid>
+</Page>
+

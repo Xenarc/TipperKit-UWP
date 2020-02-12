@@ -226,3 +226,17 @@ D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\obj\x86\Debug\Datasheets
 D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\obj\x86\Debug\GenerateAndSendReportPage.xaml
 D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\obj\x86\Debug\DatasheetsPage.xbf
 D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\obj\x86\Debug\GenerateAndSendReportPage.xbf
+D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\bin\x86\Debug\DeviceFamily-Mobile\DatasheetsPage.xbf
+D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\bin\x86\Debug\DeviceFamily-Mobile\GenerateAndSendReportPage.xbf
+D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\bin\x86\Debug\DeviceFamily-Mobile\MainPage.xbf
+D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\bin\x86\Debug\DeviceFamily-Mobile\OutputPage.xbf
+D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\bin\x86\Debug\Newtonsoft.Json.dll
+D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\bin\x86\Debug\System.Net.Mail.dll
+D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\obj\x86\Debug\DeviceFamily-Mobile\DatasheetsPage.xaml
+D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\obj\x86\Debug\DeviceFamily-Mobile\GenerateAndSendReportPage.xaml
+D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\obj\x86\Debug\DeviceFamily-Mobile\MainPage.xaml
+D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\obj\x86\Debug\DeviceFamily-Mobile\OutputPage.xaml
+D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\obj\x86\Debug\DeviceFamily-Mobile\DatasheetsPage.xbf
+D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\obj\x86\Debug\DeviceFamily-Mobile\GenerateAndSendReportPage.xbf
+D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\obj\x86\Debug\DeviceFamily-Mobile\MainPage.xbf
+D:\Mark\Documents\TIPPERKIT\Windows\TipperKit\TipperKit\obj\x86\Debug\DeviceFamily-Mobile\OutputPage.xbf

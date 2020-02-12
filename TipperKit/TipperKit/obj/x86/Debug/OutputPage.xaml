@@ -7,40 +7,42 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
     <Grid Background="#FF131313" HorizontalAlignment="Stretch">
-        <ScrollViewer HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Margin="0,0,0,38">
-            <Grid VerticalAlignment="Top" Height="1395">
-                <Grid x:ConnectionId='3' x:Name="BGOverallApplicationSetup" Margin="0,66,0,0" Background="Red" VerticalAlignment="Top">
-                    <TextBlock x:ConnectionId='21' x:Name="TOverallApplicationSetup" TextWrapping="Wrap" Text="Application Unacceptable" Foreground="Black" RenderTransformOrigin="0.5,0.5" TextAlignment="Center" LineHeight="10" FontSize="24" Padding="0,10" Margin="55,15,0,0"/>
+        <ScrollViewer HorizontalContentAlignment="Stretch" Height="Auto" VerticalContentAlignment="Top" Margin="0,0,0,43" Background="#FF131313">
+            <Grid>
+                <Grid x:ConnectionId='39' x:Name="BGOverallApplicationSetup" Margin="0,83,0,0" Background="Red" VerticalAlignment="Top" Height="56">
+                    <TextBlock x:ConnectionId='72' x:Name="TOverallApplicationSetup" TextWrapping="Wrap" Text="Application Unacceptable" Foreground="Black" RenderTransformOrigin="0.5,0.5" TextAlignment="Center" LineHeight="10" FontSize="24" Padding="0,10" Margin="55,0,10,0"/>
                 </Grid>
-                <Grid Margin="0,-1,0,551" Height="90" Grid.RowSpan="2" VerticalAlignment="Top">
-                    <Grid Margin="0,42,0,6" Background="#FF0023FF" Height="42" VerticalAlignment="Top">
+                <Grid Margin="0" VerticalAlignment="Top">
+                    <Grid Margin="0,39,0,-1" Background="#FF0023FF" Height="42" VerticalAlignment="Top">
                         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Tipper Kit Part Number:" VerticalAlignment="Top" Foreground="White" Margin="10,8,0,0" FontSize="18"/>
-                        <TextBlock x:ConnectionId='20' x:Name="TTipperKitPartNumber" Margin="0,8,10,0" TextWrapping="Wrap" Text="NULL" VerticalAlignment="Top" Foreground="White" TextAlignment="Right" FontSize="18" HorizontalAlignment="Right" Width="1000"/>
+                        <TextBlock x:ConnectionId='71' x:Name="TTipperKitPartNumber" Margin="0,8,10,0" TextWrapping="Wrap" Text="NULL" VerticalAlignment="Top" Foreground="White" TextAlignment="Right" FontSize="18" HorizontalAlignment="Right" Width="1000"/>
                     </Grid>
-                    <Grid Margin="0,5,0,0" Background="#FF0023FF" VerticalAlignment="Top" Height="37">
+                    <Grid Background="#FF0023FF" VerticalAlignment="Top" Height="37">
                         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Cylinder Part Number:" VerticalAlignment="Top" Foreground="White" Margin="10,5,0,0" FontSize="18"/>
-                        <TextBlock x:ConnectionId='19' x:Name="TCylinderPartNumber" Margin="0,5,10,8" TextWrapping="Wrap" Text="NULL" Foreground="White" TextAlignment="Right" FontSize="18" HorizontalAlignment="Right" Width="848"/>
+                        <TextBlock x:ConnectionId='70' x:Name="TCylinderPartNumber" Margin="0,5,10,8" TextWrapping="Wrap" Text="NULL" Foreground="White" TextAlignment="Right" FontSize="18" HorizontalAlignment="Right" Width="848"/>
 
                     </Grid>
 
                 </Grid>
-                <Grid Margin="0,130,0,0" Grid.Row="1" Background="#FF444444" VerticalAlignment="Top" Height="99">
-                    <TextBlock x:ConnectionId='18' x:Name="TSentance" TextWrapping="Wrap" Text="NULL" VerticalAlignment="Top" Height="87" Margin="10,10,10,0" Foreground="White"/>
+                <Grid Margin="0,142,0,0" Background="#FF383838" VerticalAlignment="Top" Height="94">
+                    <TextBlock x:ConnectionId='69' x:Name="TSentance" TextWrapping="Wrap" Text="NULL" Margin="10,0" Foreground="White" TextAlignment="Center" VerticalAlignment="Center"/>
 
                 </Grid>
-                <TextBlock HorizontalAlignment="Center" Margin="0,246,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Key" VerticalAlignment="Top" Width="360" Foreground="White" TextAlignment="Center"/>
-                <Grid Margin="184,266,0,323" Grid.Row="1" Background="Red" Width="176" HorizontalAlignment="Center" VerticalAlignment="Top">
-                    <TextBlock TextWrapping="Wrap" Text="Unacceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0" VerticalAlignment="Top"/>
+                <Grid Margin="0,241,0,0" VerticalAlignment="Top" Width="2560" HorizontalAlignment="Center">
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Key" VerticalAlignment="Top" Width="360" Foreground="White" TextAlignment="Center" Margin="0,-1,0,0"/>
+                    <Grid Margin="184,20,0,0" Background="Red" Width="176" HorizontalAlignment="Center" VerticalAlignment="Top">
+                        <TextBlock TextWrapping="Wrap" Text="Unacceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0" VerticalAlignment="Top"/>
 
-                </Grid>
-                <Grid Margin="0,266,176,0" Grid.Row="1" Background="Lime" HorizontalAlignment="Center" Width="184" VerticalAlignment="Top" >
-                    <TextBlock TextWrapping="Wrap" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0" VerticalAlignment="Top"/>
+                    </Grid>
+                    <Grid Margin="0,20,176,0" Background="Lime" HorizontalAlignment="Center" Width="184" VerticalAlignment="Top" >
+                        <TextBlock TextWrapping="Wrap" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0" VerticalAlignment="Top"/>
 
+                    </Grid>
                 </Grid>
                 <Grid Margin="0,294,0,0" VerticalAlignment="Top">
                     <Grid Background="#FF363636" VerticalAlignment="Top">
-                        <Grid x:ConnectionId='16' x:Name="BGFmaxGtY2" Margin="260,0,0,0" Background="Lime" >
-                            <TextBlock x:ConnectionId='17' x:Name="TFmaxGtY2" TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0"/>
+                        <Grid x:ConnectionId='67' x:Name="BGFmaxGtY2" Margin="260,0,0,0" Background="Lime" >
+                            <TextBlock x:ConnectionId='68' x:Name="TFmaxGtY2" TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0"/>
 
                         </Grid>
                         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Is Cylinder Force Acceptable For Application?" Foreground="White" Width="245" Margin="10,0,0,0" TextAlignment="Center"/>
@@ -52,12 +54,12 @@
 
                         </Grid>
                         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Is Cylinder Pressure Acceptable For Application?" VerticalAlignment="Top" Foreground="White" Width="245" Margin="10,0,0,0" TextAlignment="Center"/>
-                        <Grid x:ConnectionId='14' x:Name="BGPLsPmax" Margin="260,0,0,0" Background="Lime" >
+                        <Grid x:ConnectionId='65' x:Name="BGPLsPmax" Margin="260,0,0,0" Background="Lime" >
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="29*"/>
                                 <RowDefinition Height="11*"/>
                             </Grid.RowDefinitions>
-                            <TextBlock x:ConnectionId='15' x:Name="TPLsPmax" TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10" Grid.RowSpan="2"/>
+                            <TextBlock x:ConnectionId='66' x:Name="TPLsPmax" TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10" Grid.RowSpan="2"/>
 
                         </Grid>
 
@@ -68,12 +70,12 @@
 
                         </Grid>
                         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Is Tipping Angle Acceptable For Application?" VerticalAlignment="Top" Foreground="White" Width="245" Margin="10,0,0,0" TextAlignment="Center"/>
-                        <Grid x:ConnectionId='12' x:Name="BGdGt39Lt58" Margin="260,0,0,0" Background="Lime" >
+                        <Grid x:ConnectionId='63' x:Name="BGdGt39Lt58" Margin="260,0,0,0" Background="Lime" >
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="29*"/>
                                 <RowDefinition Height="11*"/>
                             </Grid.RowDefinitions>
-                            <TextBlock x:ConnectionId='13' x:Name="TdGt39Lt58" TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10" Grid.RowSpan="2"/>
+                            <TextBlock x:ConnectionId='64' x:Name="TdGt39Lt58" TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10" Grid.RowSpan="2"/>
 
                         </Grid>
 
@@ -85,20 +87,20 @@
 
                         </Grid>
                         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Is Cylinder Location Acceptable For Application?" VerticalAlignment="Top" Foreground="White" Width="245" Margin="10,0,0,0" TextAlignment="Center"/>
-                        <Grid x:ConnectionId='10' x:Name="BGTactLtTmax" Margin="260,0,0,0" Background="Lime" VerticalAlignment="Top" >
+                        <Grid x:ConnectionId='61' x:Name="BGTactLtTmax" Margin="260,0,0,0" Background="Lime" VerticalAlignment="Top" >
                             <Grid.RowDefinitions>
                                 <RowDefinition/>
                                 <RowDefinition Height="20"/>
                             </Grid.RowDefinitions>
-                            <TextBlock x:ConnectionId='11' x:Name="TTactLtTmax" TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10" Grid.RowSpan="2"/>
+                            <TextBlock x:ConnectionId='62' x:Name="TTactLtTmax" TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10" Grid.RowSpan="2"/>
 
                         </Grid>
 
                     </Grid>
                     <Grid Margin="0,205,0,0" Background="#FF363636" VerticalAlignment="Top" Height="87">
                         <Grid Margin="260,0,0,0">
-                            <Grid x:ConnectionId='8' x:Name="BGSrh6L" Background="Lime" >
-                                <TextBlock x:ConnectionId='9' x:Name="TSrh6L" TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0"/>
+                            <Grid x:ConnectionId='59' x:Name="BGSrh6L" Background="Lime" >
+                                <TextBlock x:ConnectionId='60' x:Name="TSrh6L" TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0"/>
 
                             </Grid>
                         </Grid>
@@ -119,8 +121,8 @@
                         </Grid>
                     </Grid>
                     <Grid Margin="0,297,0,0" Background="#FF363636" VerticalAlignment="Top" Height="87">
-                        <Grid x:ConnectionId='6' x:Name="BGSSH10" Margin="260,0,0,0" Background="Lime" >
-                            <TextBlock x:ConnectionId='7' x:Name="TSSH10" TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0"/>
+                        <Grid x:ConnectionId='57' x:Name="BGSSH10" Margin="260,0,0,0" Background="Lime" >
+                            <TextBlock x:ConnectionId='58' x:Name="TSSH10" TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0"/>
 
                         </Grid>
                         <Grid HorizontalAlignment="Left" Width="260">
@@ -198,8 +200,8 @@
                         </Grid>
                     </Grid>
                     <Grid Margin="0,389,0,0" Background="#FF363636" VerticalAlignment="Top" Height="87">
-                        <Grid x:ConnectionId='4' x:Name="BGSSH15l" Margin="260,0,0,0" Background="Lime" >
-                            <TextBlock x:ConnectionId='5' x:Name="TSSH15l" TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0"/>
+                        <Grid x:ConnectionId='55' x:Name="BGSSH15l" Margin="260,0,0,0" Background="Lime" >
+                            <TextBlock x:ConnectionId='56' x:Name="TSSH15l" TextWrapping="Wrap" VerticalAlignment="Center" Text="Acceptable" TextAlignment="Center" RenderTransformOrigin="1.137,1.183" Margin="10,0"/>
 
                         </Grid>
                         <Grid HorizontalAlignment="Left" Width="260">
@@ -224,7 +226,285 @@
                         </Grid>
                     </Grid>
                 </Grid>
-                <Grid Margin="10,978,10,2028" Grid.RowSpan="2" VerticalAlignment="Bottom"/>
+                <Grid Margin="10,0,10,293" VerticalAlignment="Bottom"/>
+                <Grid Background="#FFDBAD20" VerticalAlignment="Top" Margin="0,789,0,0">
+                    <TextBlock TextWrapping="Wrap" Text="Manually Inputed" Foreground="Black" TextAlignment="Center" Margin="10,0"/>
+                </Grid>
+                <Grid Background="#00131313" VerticalAlignment="Top" Margin="0,811,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="7.6*"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Background="#FFDBAD20" Margin="0,0,2.5,0" Grid.Column="0">
+                        <TextBlock TextWrapping="Wrap" Text="Tray Weight (Empty)" Foreground="Black" Margin="10,0"/>
+                    </Grid>
+                    <Grid Background="#FFDBAD20" Margin="2.5,0" Grid.Column="1" Height="20" VerticalAlignment="Top">
+                        <TextBlock x:ConnectionId='54' x:Name="VALUE12" TextWrapping="Wrap" Text="NULL" Foreground="Black" TextAlignment="Center"/>
+                    </Grid>
+                    <Grid Background="#FFDBAD20" Margin="2.5,0,0,0" Grid.Column="2" Height="20" VerticalAlignment="Top">
+                        <TextBlock TextWrapping="Wrap" Text="kg" Foreground="Black" TextAlignment="Center"/>
+                    </Grid>
+                </Grid>
+                <Grid Background="#00131313" VerticalAlignment="Top" Margin="0,833,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="7.6*"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Background="#FFDBAD20" Margin="0,0,2.5,0" Grid.Column="0">
+                        <TextBlock TextWrapping="Wrap" Text="Gross Tray Weight (Loaded)" Foreground="Black" Margin="10,0"/>
+                    </Grid>
+                    <Grid Background="#FFDBAD20" Margin="2.5,0" Grid.Column="1" Height="20" VerticalAlignment="Top">
+                        <TextBlock x:ConnectionId='53' x:Name="VALUE13" TextWrapping="Wrap" Text="NULL" Foreground="Black" TextAlignment="Center"/>
+                    </Grid>
+                    <Grid Background="#FFDBAD20" Margin="2.5,0,0,0" Grid.Column="2" Height="20" VerticalAlignment="Top">
+                        <TextBlock TextWrapping="Wrap" Text="kg" Foreground="Black" TextAlignment="Center"/>
+                    </Grid>
+                </Grid>
+                <Grid Background="#00131313" VerticalAlignment="Top" Margin="0,855,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="6.4*"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Background="#FFDBAD20" Margin="0,0,2.5,0" Grid.Column="0">
+                        <TextBlock TextWrapping="Wrap" Text="Center of Gravity" Foreground="Black" Margin="10,0"/>
+                    </Grid>
+                    <Grid Background="#FFDBAD20" Margin="2.333,0,2.334,0" Grid.Column="2" Height="20" VerticalAlignment="Top">
+                        <TextBlock x:ConnectionId='52' x:Name="VALUE14" TextWrapping="Wrap" Text="NULL" Foreground="Black" TextAlignment="Center"/>
+                    </Grid>
+                    <Grid Background="#FFDBAD20" Margin="2.666,0,0,0" Grid.Column="3" Height="20" VerticalAlignment="Top">
+                        <TextBlock TextWrapping="Wrap" Text="mm" Foreground="Black" TextAlignment="Center"/>
+                    </Grid>
+                    <Grid Background="#FFDBAD20" Margin="2.5,0" Grid.Column="1" Height="20" VerticalAlignment="Top">
+                        <TextBlock TextWrapping="Wrap" Text="L1" Foreground="Black" TextAlignment="Center"/>
+                    </Grid>
+                </Grid>
+                <Grid Background="#00131313" VerticalAlignment="Top" Margin="0,877,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="6.4*"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Background="#FFDBAD20" Margin="0,0,2.5,0" Grid.Column="0">
+                        <TextBlock TextWrapping="Wrap" Text="Distance Between Pivot Points" Foreground="Black" Margin="10,0"/>
+                    </Grid>
+                    <Grid Background="#FFDBAD20" Margin="2.333,0,2.334,0" Grid.Column="2" Height="20" VerticalAlignment="Top">
+                        <TextBlock x:ConnectionId='51' x:Name="VALUE15" TextWrapping="Wrap" Text="NULL" Foreground="Black" TextAlignment="Center"/>
+                    </Grid>
+                    <Grid Background="#FFDBAD20" Margin="2.666,0,0,0" Grid.Column="3" Height="20" VerticalAlignment="Top">
+                        <TextBlock TextWrapping="Wrap" Text="mm" Foreground="Black" TextAlignment="Center"/>
+                    </Grid>
+                    <Grid Background="#FFDBAD20" Margin="2.5,0" Grid.Column="1" Height="20" VerticalAlignment="Top">
+                        <TextBlock TextWrapping="Wrap" Text="L2" Foreground="Black" TextAlignment="Center"/>
+                    </Grid>
+                </Grid>
+                <Grid Background="#00131313" VerticalAlignment="Top" Margin="0,899,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="6.4*"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Background="#FFDBAD20" Margin="0,0,2.5,0" Grid.Column="0">
+                        <TextBlock TextWrapping="Wrap" Text="Cylinder Stroke" Foreground="Black" Margin="10,0"/>
+                    </Grid>
+                    <Grid Background="#FFDBAD20" Margin="2.333,0,2.334,0" Grid.Column="2" Height="20" VerticalAlignment="Top">
+                        <TextBlock x:ConnectionId='50' x:Name="VALUE16" TextWrapping="Wrap" Text="NULL" Foreground="Black" TextAlignment="Center"/>
+                    </Grid>
+                    <Grid Background="#FFDBAD20" Margin="2.666,0,0,0" Grid.Column="3" Height="20" VerticalAlignment="Top">
+                        <TextBlock TextWrapping="Wrap" Text="mm" Foreground="Black" TextAlignment="Center"/>
+                    </Grid>
+                    <Grid Background="#FFDBAD20" Margin="2.5,0" Grid.Column="1" Height="20" VerticalAlignment="Top">
+                        <TextBlock TextWrapping="Wrap" Text="L3" Foreground="Black" TextAlignment="Center"/>
+                    </Grid>
+                </Grid>
+                <Grid Background="#00131313" VerticalAlignment="Top" Margin="0,921,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="6.4*"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Background="#FFDBAD20" Margin="0,0,2.5,0" Grid.Column="0">
+                        <TextBlock TextWrapping="Wrap" Text="Tray Length" Foreground="Black" Margin="10,0"/>
+                    </Grid>
+                    <Grid Background="#FFDBAD20" Margin="2.333,0,2.334,0" Grid.Column="2" Height="20" VerticalAlignment="Top">
+                        <TextBlock x:ConnectionId='49' x:Name="VALUE17" TextWrapping="Wrap" Text="NULL" Foreground="Black" TextAlignment="Center"/>
+                    </Grid>
+                    <Grid Background="#FFDBAD20" Margin="2.666,0,0,0" Grid.Column="3" Height="20" VerticalAlignment="Top">
+                        <TextBlock TextWrapping="Wrap" Text="mm" Foreground="Black" TextAlignment="Center"/>
+                    </Grid>
+                    <Grid Background="#FFDBAD20" Margin="2.5,0" Grid.Column="1" Height="20" VerticalAlignment="Top">
+                        <TextBlock TextWrapping="Wrap" Text="L4" Foreground="Black" TextAlignment="Center"/>
+                    </Grid>
+                </Grid>
+                <Grid Background="#FF131313" VerticalAlignment="Top" Margin="0,943,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="6.4*"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Background="#FFDBAD20" Margin="0,0,2.5,0" Grid.Column="0">
+                        <TextBlock TextWrapping="Wrap" Text="Tipping Angle" Foreground="Black" Margin="10,0"/>
+                    </Grid>
+                    <Grid Background="#FFDBAD20" Margin="2.333,0,2.334,0" Grid.Column="2" Height="20" VerticalAlignment="Top">
+                        <TextBlock x:ConnectionId='48' x:Name="VALUE18" TextWrapping="Wrap" Text="NULL" Foreground="Black" TextAlignment="Center"/>
+                    </Grid>
+                    <Grid Background="#FFDBAD20" Margin="2.666,0,0,0" Grid.Column="3" Height="20" VerticalAlignment="Top">
+                        <TextBlock TextWrapping="Wrap" Text="d" Foreground="Black" TextAlignment="Center"/>
+                    </Grid>
+                    <Grid Background="#FFDBAD20" Margin="2.5,0" Grid.Column="1" Height="20" VerticalAlignment="Top">
+                        <TextBlock TextWrapping="Wrap" Text="Tilt" Foreground="Black" TextAlignment="Center"/>
+                    </Grid>
+                </Grid>
+                <Grid Background="#00131313" VerticalAlignment="Top" Margin="0,989,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="7.6*"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Background="#FF639144" Margin="0,0,2.5,0" Grid.Column="0">
+                        <TextBlock TextWrapping="Wrap" Text="Max Working Pressure of Cylinder (Pmax)" Foreground="White" Margin="10,0,0,0"/>
+                    </Grid>
+                    <Grid Background="#FF639144" Margin="2.5,0" Grid.Column="1" Height="20" VerticalAlignment="Top">
+                        <TextBlock x:ConnectionId='47' x:Name="VALUE19" TextWrapping="Wrap" Text="NULL" Foreground="White" TextAlignment="Center"/>
+                    </Grid>
+                    <Grid Background="#FF639144" Margin="2.5,0,0,0" Grid.Column="2" Height="20" VerticalAlignment="Top">
+                        <TextBlock TextWrapping="Wrap" Text="Bar" Foreground="White" TextAlignment="Center"/>
+                    </Grid>
+                </Grid>
+                <Grid Background="#FFDBAD20" VerticalAlignment="Top" Margin="0,789,0,0">
+                    <TextBlock TextWrapping="Wrap" Text="Manually Inputed" Foreground="Black" TextAlignment="Center" Margin="10,0"/>
+                </Grid>
+                <Grid Background="#FF639144" VerticalAlignment="Top" Margin="0,966.989,0,0" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                    <Grid.RenderTransform>
+                        <CompositeTransform Rotation="0.002"/>
+                    </Grid.RenderTransform>
+                    <TextBlock TextWrapping="Wrap" Text="Fixed Values" Foreground="White" TextAlignment="Center" Margin="10,0"/>
+                </Grid>
+                <Grid Background="#00131313" VerticalAlignment="Top" Margin="0,1011,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="7.6*"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Background="#FF639144" Margin="0,0,2.5,0" Grid.Column="0">
+                        <TextBlock TextWrapping="Wrap" Text="Flow Rate of Power Pack (Raise)" Foreground="White" Margin="10,0,0,0"/>
+                    </Grid>
+                    <Grid Background="#FF639144" Margin="2.5,0" Grid.Column="1" Height="20" VerticalAlignment="Top">
+                        <TextBlock x:ConnectionId='46' x:Name="VALUE20" TextWrapping="Wrap" Text="NULL" Foreground="White" TextAlignment="Center"/>
+                    </Grid>
+                    <Grid Background="#FF639144" Margin="2.5,0,0,0" Grid.Column="2" Height="20" VerticalAlignment="Top">
+                        <TextBlock TextWrapping="Wrap" Text="I/min" Foreground="White" TextAlignment="Center"/>
+                    </Grid>
+                </Grid>
+                <Grid Background="#00131313" VerticalAlignment="Top" Margin="0,1033,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="7.6*"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Background="#FF639144" Margin="0,0,2.5,0" Grid.Column="0">
+                        <TextBlock TextWrapping="Wrap" Text="Flow Rate of Power Pack (Lower)" Foreground="White" Margin="10,0,0,0"/>
+                    </Grid>
+                    <Grid Background="#FF639144" Margin="2.5,0" Grid.Column="1" Height="20" VerticalAlignment="Top">
+                        <TextBlock x:ConnectionId='45' x:Name="VALUE21" TextWrapping="Wrap" Text="NULL" Foreground="White" TextAlignment="Center"/>
+                    </Grid>
+                    <Grid Background="#FF639144" Margin="2.5,0,0,0" Grid.Column="2" Height="20" VerticalAlignment="Top">
+                        <TextBlock TextWrapping="Wrap" Text="I/min" Foreground="White" TextAlignment="Center"/>
+                    </Grid>
+                </Grid>
+                <Grid Background="#FF32CDDB" VerticalAlignment="Top" Margin="0,1057,0,0" RenderTransformOrigin="0.5,0.5">
+                    <TextBlock TextWrapping="Wrap" Text="Referenced Values" Foreground="Black" TextAlignment="Center" Margin="10,0"/>
+                </Grid>
+                <Grid Background="#00131313" VerticalAlignment="Top" Margin="0,1079,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="7.6*"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Background="#FF32CDDB" Margin="0,0,2.5,0" Grid.Column="0">
+                        <TextBlock TextWrapping="Wrap" Text="Stroke Volume of Cylinder" Foreground="Black" Margin="10,0,0,0"/>
+                    </Grid>
+                    <Grid Background="#FF32CDDB" Margin="2.5,0" Grid.Column="1" Height="20" VerticalAlignment="Top">
+                        <TextBlock x:ConnectionId='44' x:Name="VALUE22" TextWrapping="Wrap" Text="NULL" Foreground="Black" TextAlignment="Center"/>
+                    </Grid>
+                    <Grid Background="#FF32CDDB" Margin="2.5,0,0,0" Grid.Column="2" Height="20" VerticalAlignment="Top">
+                        <TextBlock TextWrapping="Wrap" Text="I" Foreground="Black" TextAlignment="Center"/>
+                    </Grid>
+                </Grid>
+                <Grid Background="#00131313" VerticalAlignment="Top" Margin="0,1101,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="7.6*"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Background="#FF32CDDB" Margin="0,0,2.5,0" Grid.Column="0">
+                        <TextBlock TextWrapping="Wrap" Text="Overall Cylinder Diameter" Foreground="Black" Margin="10,0,0,0"/>
+                    </Grid>
+                    <Grid Background="#FF32CDDB" Margin="2.5,0" Grid.Column="1" Height="20" VerticalAlignment="Top">
+                        <TextBlock x:ConnectionId='43' x:Name="VALUE23" TextWrapping="Wrap" Text="NULL" Foreground="Black" TextAlignment="Center"/>
+                    </Grid>
+                    <Grid Background="#FF32CDDB" Margin="2.5,0,0,0" Grid.Column="2" Height="20" VerticalAlignment="Top">
+                        <TextBlock TextWrapping="Wrap" Text="mm" Foreground="Black" TextAlignment="Center"/>
+                    </Grid>
+                </Grid>
+                <Grid Background="#00131313" VerticalAlignment="Top" Margin="0,1123,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="7.6*"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Background="#FF32CDDB" Margin="0,0,2.5,0" Grid.Column="0">
+                        <TextBlock TextWrapping="Wrap" Text="Smallest Rod Diameter" Foreground="Black" Margin="10,0,0,0"/>
+                    </Grid>
+                    <Grid Background="#FF32CDDB" Margin="2.5,0" Grid.Column="1" Height="20" VerticalAlignment="Top">
+                        <TextBlock x:ConnectionId='42' x:Name="VALUE24" TextWrapping="Wrap" Text="NULL" Foreground="Black" TextAlignment="Center"/>
+                    </Grid>
+                    <Grid Background="#FF32CDDB" Margin="2.5,0,0,0" Grid.Column="2" Height="20" VerticalAlignment="Top">
+                        <TextBlock TextWrapping="Wrap" Text="mm" Foreground="Black" TextAlignment="Center"/>
+                    </Grid>
+                </Grid>
+                <Grid Background="#FF5523C1" VerticalAlignment="Top" Margin="0,1147,0,0" RenderTransformOrigin="0.5,0.5">
+                    <TextBlock TextWrapping="Wrap" Text="Power Pack Raise / Lower Times" Foreground="White" TextAlignment="Center" Margin="10,0"/>
+                </Grid>
+                <Grid Background="#00131313" VerticalAlignment="Top" Margin="0,1169,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="7.6*"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Background="#FF5523C1" Margin="0,0,2.5,0" Grid.Column="0">
+                        <TextBlock TextWrapping="Wrap" Text="Raise Time" Foreground="White" Margin="10,0,0,0"/>
+                    </Grid>
+                    <Grid Background="#FF5523C1" Margin="2.5,0" Grid.Column="1" Height="20" VerticalAlignment="Top">
+                        <TextBlock x:ConnectionId='41' x:Name="VALUE25" TextWrapping="Wrap" Text="NULL" Foreground="White" TextAlignment="Center"/>
+                    </Grid>
+                    <Grid Background="#FF5523C1" Margin="2.5,0,0,0" Grid.Column="2" Height="20" VerticalAlignment="Top">
+                        <TextBlock TextWrapping="Wrap" Text="sec" Foreground="White" TextAlignment="Center"/>
+                    </Grid>
+                </Grid>
+                <Grid Background="#00131313" VerticalAlignment="Top" Margin="0,1191,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="7.6*"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Background="#FF5523C1" Margin="0,0,2.5,0" Grid.Column="0">
+                        <TextBlock TextWrapping="Wrap" Text="Lower Time" Foreground="White" Margin="10,0,0,0"/>
+                    </Grid>
+                    <Grid Background="#FF5523C1" Margin="2.5,0" Grid.Column="1" Height="20" VerticalAlignment="Top">
+                        <TextBlock x:ConnectionId='40' x:Name="VALUE26" TextWrapping="Wrap" Text="NULL" Foreground="White" TextAlignment="Center"/>
+                    </Grid>
+                    <Grid Background="#FF5523C1" Margin="2.5,0,0,0" Grid.Column="2" Height="20" VerticalAlignment="Top">
+                        <TextBlock TextWrapping="Wrap" Text="sec" Foreground="White" TextAlignment="Center"/>
+                    </Grid>
+                </Grid>
             </Grid>
         </ScrollViewer>
         <Grid Background="#00363636" VerticalAlignment="Bottom" Height="38" Margin="-3,0,0,0" BorderBrush="#FF444444" BorderThickness="0,1,0,0">
@@ -232,8 +512,8 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Button x:ConnectionId='1' x:Name="btnRealcluate" Content="Recalculate" Background="#FF494949" Foreground="White" VerticalAlignment="Stretch"                             FocusVisualPrimaryBrush="#FF747474" FocusVisualSecondaryBrush="#FF747474" RequestedTheme="Dark" Margin="0,1,5,0" HorizontalAlignment="Stretch"/>
-            <Button x:ConnectionId='2' x:Name="btnRealcluate_Copy" Content="Generate and Send" Background="#FF494949" Foreground="White" VerticalAlignment="Stretch" FocusVisualPrimaryBrush="#FF747474" FocusVisualSecondaryBrush="#FF747474" RequestedTheme="Dark" Margin="5,1,0,0" HorizontalAlignment="Stretch" Grid.Column="1"                                 />
+            <Button x:ConnectionId='37' x:Name="btnRealcluate" Content="Recalculate" Background="#FF494949" Foreground="White" VerticalAlignment="Stretch"                             FocusVisualPrimaryBrush="#FF747474" FocusVisualSecondaryBrush="#FF747474" RequestedTheme="Dark" Margin="0,1,5,0" HorizontalAlignment="Stretch" TabIndex="2"/>
+            <Button x:ConnectionId='38' x:Name="btnRealcluate_Copy" Content="Generate and Send" Background="#FF494949" Foreground="White" VerticalAlignment="Stretch" FocusVisualPrimaryBrush="#FF747474" FocusVisualSecondaryBrush="#FF747474" RequestedTheme="Dark" Margin="5,1,0,0" HorizontalAlignment="Stretch" Grid.Column="1"                                  TabIndex="1"/>
         </Grid>
     </Grid>
 </Page>

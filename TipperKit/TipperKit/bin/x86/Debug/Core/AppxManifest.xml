@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="8b633d62-0520-4b2f-b17e-94cb30ea9a11" Publisher="CN=Mark" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <Identity Name="8b633d62-0520-4b2f-b17e-94cb30ea9a11" Publisher="CN=Mark" Version="1.0.4.0" ProcessorArchitecture="x86" />
   <mp:PhoneIdentity PhoneProductId="8b633d62-0520-4b2f-b17e-94cb30ea9a11" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>TipperKit</DisplayName>
@@ -24,9 +24,16 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="TipperKit.exe" EntryPoint="TipperKit.App">
-      <uap:VisualElements DisplayName="TipperKit" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="TipperKit" BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
-        <uap:SplashScreen Image="Assets\SplashScreen.png" />
+      <uap:VisualElements DisplayName="Trailer Tippers - Hydraulic Calculation Tool" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="Tipper Tool - Determine the correct Victorian Hydraulics Tipper Kit to suit your new tipping trailer.e program allows for a number of options from tray lengths of 2.4m (8’) up to 4.2m (14’) and loads up to 4.5 ton and with a 20% safety factor. This is the ideal tool for any tipper trailer manufacturer using the Victorian Hydraulics Tipper Kits" BackgroundColor="#FFFFFF">
+        <uap:LockScreen Notification="badge" BadgeLogo="Assets\BadgeLogo.png" />
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square71x71Logo="Assets\SmallTile.png" Square310x310Logo="Assets\LargeTile.png"></uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#FFFFFF" />
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="portrait" />
+          <uap:Rotation Preference="landscape" />
+          <uap:Rotation Preference="portraitFlipped" />
+          <uap:Rotation Preference="landscapeFlipped" />
+        </uap:InitialRotationPreference>
       </uap:VisualElements>
     </Application>
   </Applications>
